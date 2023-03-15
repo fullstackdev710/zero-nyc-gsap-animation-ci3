@@ -459,6 +459,11 @@ $base_url = base_url();
    <meta name="msapplication-square310x310logo" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=310&h=310" />
    <link rel="dns-prefetch" href="https://images.prismic.io" />
    <link rel="preconnect" href="https://images.prismic.io" crossorigin>
+
+   <script>
+      const domain_url = `<?php echo base_url(); ?>`;
+      console.log("Domain Url: ", domain_url)
+   </script>
 </head>
 
 <body style="--font: 'white-theme-font'; --font2: 'black-theme-font'; --font3: 'third-theme-font'; background-color:var(--secondary, #000000);">

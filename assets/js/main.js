@@ -677,7 +677,7 @@
 					var n =
 						arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
 					p()(this, t),
-						(this.worker = new Worker("/assets/code/image-load.js")),
+						(this.worker = new Worker(`${domain_url}/assets/js/image-load.js`)),
 						(this.array = []),
 						(this.domElements = !1),
 						(this.count = 0),
@@ -38150,7 +38150,7 @@
 								var t = this;
 								_.isGreaterThan767 &&
 									this.gltfLoader.load(
-										"/assets/models/emojis/envelope.glb",
+										`${domain_url}assets/emoji/envelope.glb`,
 										function (e) {
 											e.scene.scale.set(0.09, 0.09, 0.09),
 												e.scene.position.set(
@@ -38195,14 +38195,17 @@
 									);
 								var e = new zg();
 								(this.whiteHeartTexture = !1), (this.heartMaterial = !1);
-								e.load("/assets/images/temp/white-heart.jpg", function (e) {
-									(e.flipY = !1),
-										t.heartMaterial
-											? (t.heartMaterial.emissiveMap = t.whiteHeartTexture)
-											: (t.whiteHeartTexture = e);
-								}),
+								e.load(
+									`${domain_url}/assets/emoji/heart-test.glb`,
+									function (e) {
+										(e.flipY = !1),
+											t.heartMaterial
+												? (t.heartMaterial.emissiveMap = t.whiteHeartTexture)
+												: (t.whiteHeartTexture = e);
+									}
+								),
 									this.gltfLoader.load(
-										"/assets/models/emojis/heart-test.glb",
+										`${domain_url}/assets/emoji/heart-test.glb`,
 										function (e) {
 											e.scene.scale.set(0.08, 0.08, 0.08),
 												e.scene.position.set(
@@ -38241,7 +38244,7 @@
 										}
 									),
 									this.gltfLoader.load(
-										"/assets/models/emojis/lollipop.glb",
+										`${domain_url}assets/emoji/lollipop.glb`,
 										function (e) {
 											e.scene.scale.set(0.085, 0.085, 0.085),
 												e.scene.position.set(
