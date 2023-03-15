@@ -271,12 +271,12 @@
 <!-- Deferred CSS -->
 <script type="text/javascript">
    var stylesheet = document.createElement("link");
-   stylesheet.href = "/assets/code/main.css?v=1628268254554";
+   stylesheet.href = "<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>"
    stylesheet.rel = "stylesheet";
    stylesheet.type = "text/css";
    document.getElementsByTagName("head")[0].appendChild(stylesheet);
 </script>
-<script type="text/javascript" src="/assets/code/main.js?v=1628268254554" defer></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/assets/js/main.js?ver=<?php echo time(); ?>" defer></script>
 <p style="font-family: 'white-theme-font'" class="hidden">hidden</p>
 <p style="font-family: 'black-theme-font'" class="hidden">hidden</p>
 <p style="font-family: 'third-theme-font'" class="hidden">hidden</p>

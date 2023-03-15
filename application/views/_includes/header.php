@@ -1,3 +1,9 @@
+<?php defined("BASEPATH") or exit(); ?>
+
+<?php
+$base_url = base_url();
+?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" style="--primary: #ffffff; --secondary: #000000;">
 
@@ -417,7 +423,7 @@
       }
    </style>
    <noscript>
-      <link rel="stylesheet" href="/assets/code/main.css?v=1628268254554" type="text/css" media="all" />
+      <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>" type="text/css" media="all" />
    </noscript>
 
    <meta name="description" content="Zero is a digitally-native branding agency with offices in New York and Milwaukee. We specialize in building brands and digital experiences." />
