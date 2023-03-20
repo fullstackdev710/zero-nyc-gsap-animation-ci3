@@ -15,6 +15,7 @@ class Home extends CI_Controller
 		];
 
 		$this->load->view('_includes/header', ['styles' => $styles]);
+		$this->load->view('_includes/sidebar');
 		$this->load->view('home');
 		$this->load->view('_includes/footer', ['scripts' => $scripts]);
 	}

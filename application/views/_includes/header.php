@@ -426,40 +426,6 @@ $base_url = base_url();
       <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>" type="text/css" media="all" />
    </noscript>
 
-   <meta name="description" content="Zero is a digitally-native branding agency with offices in New York and Milwaukee. We specialize in building brands and digital experiences." />
-   <meta property="og:description" content="Zero is a digitally-native branding agency with offices in New York and Milwaukee. We specialize in building brands and digital experiences." />
-   <meta property="og:image" content="https://images.prismic.io/zero-2020/28b1d089-d584-4c84-bf4a-d5486173fd0a_ZERO-facebook_twitter_linkedin-share.jpg?auto=compress,format&rect=0,0,1200,630&w=1200&h=630" />
-   <meta property="og:site_name" content="" />
-   <meta property="og:title" content="Zero Studios" />
-   <meta property="og:type" content="website" />
-   <meta property="og:url" content="https://zero.nyc/" />
-   <meta property="fb:app_id" content="" />
-   <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:creator" content="" />
-   <meta name="twitter:description" content="Zero is a digitally-native branding agency with offices in New York and Milwaukee. We specialize in building brands and digital experiences." />
-   <meta name="twitter:image" content="https://images.prismic.io/zero-2020/28b1d089-d584-4c84-bf4a-d5486173fd0a_ZERO-facebook_twitter_linkedin-share.jpg?auto=compress,format&rect=0,0,1200,630&w=1200&h=630" />
-   <meta name="twitter:site" content="https://zero.nyc/" />
-   <meta name="twitter:title" content="Zero Studios" />
-   <link rel="icon" type="image/png" sizes="32x32" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=32&h=32" />
-   <link rel="icon" type="image/png" sizes="57x57" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=57&h=57" />
-   <link rel="icon" type="image/png" sizes="76x76" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=76&h=76" />
-   <link rel="icon" type="image/png" sizes="96x96" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=96&h=96" />
-   <link rel="icon" type="image/png" sizes="128x128" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=128&h=128" />
-   <link rel="icon" type="image/png" sizes="192x192" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=192&h=192" />
-   <link rel="icon" type="image/png" sizes="196x196" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=196&h=196" />
-   <link rel="apple-touch-icon" sizes="120x120" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=120&h=120" />
-   <link rel="apple-touch-icon" sizes="152x152" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=152&h=152" />
-   <link rel="apple-touch-icon" sizes="180x180" href="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=180&h=180" />
-   <meta name="application-name" content="&nbsp;" />
-   <meta name="msapplication-TileColor" content="#FFFFFF" />
-   <meta name="msapplication-TileImage" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=144&h=144" />
-   <meta name="msapplication-square70x70logo" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=70&h=70" />
-   <meta name="msapplication-square150x150logo" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=150&h=150" />
-   <meta name="msapplication-wide310x150logo" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,46,180,87&w=310&h=150" />
-   <meta name="msapplication-square310x310logo" content="https://images.prismic.io/zero-2020/8fbeab0d-511e-43c0-82fd-a257a20fe095_apple-touch-icon_180x.png?auto=compress,format&rect=0,0,180,180&w=310&h=310" />
-   <link rel="dns-prefetch" href="https://images.prismic.io" />
-   <link rel="preconnect" href="https://images.prismic.io" crossorigin>
-
    <script>
       const domain_url = `<?php echo base_url(); ?>`;
       console.log("Domain Url: ", domain_url)
@@ -470,8 +436,6 @@ $base_url = base_url();
    <div id="global-mask"></div>
    <div id="container">
       <header id="header">
-
-
          <nav id="main-navigation" class="c-120">
 
             <div class="nav-emoji contact">
@@ -499,7 +463,6 @@ $base_url = base_url();
                </button>
             </div>
          </nav>
-
 
          <nav id="mobile-nav">
             <div class="background"></div>
