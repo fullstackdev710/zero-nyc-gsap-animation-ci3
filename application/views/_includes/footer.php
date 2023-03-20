@@ -200,7 +200,7 @@ $base_url = base_url();
       },
       "alt": null,
       "copyright": null,
-      "url": "https:\/\/images.prismic.io\/zero-2020\/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
+      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
    };
    const hoopMatcap = {
       "dimensions": {
@@ -209,7 +209,7 @@ $base_url = base_url();
       },
       "alt": null,
       "copyright": null,
-      "url": "https:\/\/images.prismic.io\/zero-2020\/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
+      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
    };
    const backboardMatcap = {
       "dimensions": {
@@ -218,7 +218,7 @@ $base_url = base_url();
       },
       "alt": null,
       "copyright": null,
-      "url": "https:\/\/images.prismic.io\/zero-2020\/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
+      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
    };
 </script>
 

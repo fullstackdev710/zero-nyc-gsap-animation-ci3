@@ -41,7 +41,8 @@ $base_url = base_url();
                <div class="domgl-email"></div>
             </div>
 
-            <a class="logo" href="/" title="Home"><span class="logo-hitbox"></span><span class="visuallyhidden">Back to the home page</span></a>
+            <a class="logo" href="/" title="Home">
+               <span class="logo-hitbox"></span><span class="visuallyhidden">Back to the home page</span></a>
 
             <div class="nav-emoji mode-triggers" aria-label="See page mode views" tabindex="0">
                <button class="trigger" aria-label="View in tie-dye mode" data-mode="tie-dye">

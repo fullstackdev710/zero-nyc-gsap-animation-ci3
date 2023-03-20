@@ -38244,7 +38244,7 @@
 										}
 									),
 									this.gltfLoader.load(
-										`${domain_url}assets/emoji/lollipop.glb`,
+										`${domain_url}assets/img/Clarity-4.webp`,
 										function (e) {
 											e.scene.scale.set(0.085, 0.085, 0.085),
 												e.scene.position.set(
