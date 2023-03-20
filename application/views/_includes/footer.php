@@ -39,7 +39,7 @@ $base_url = base_url();
          </svg>
       </span>
 
-      <img class="preload" alt="A hand pointing up" data-preload-desktop="<?php echo base_url(); ?>/assets/img/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=500&q=65&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=350&q=65&auto=format">
+      <img class="preload" alt="A hand pointing up" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=500&q=65&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=350&q=65&auto=format">
    </button>
 </footer>
 <div class="color-backdrops">
@@ -48,7 +48,7 @@ $base_url = base_url();
 </div>
 
 <div class="third-media">
-   <video class="preload" muted="muted" loop="loop" preload="metadata" playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/background-desktop-1.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/background-mobile-1.mp4"></video>
+   <video class="preload" muted="muted" loop="loop" preload="metadata" playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/background-desktop-1.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/background-mobile-1.mp4"></video>
 </div>
 
 <div class="canvas-wrapper nav" aria-hidden="true"></div>
@@ -69,7 +69,7 @@ $base_url = base_url();
    </button>
 </div>
 
-<img id="about-hand" class="about-hand preload" alt="hand" data-preload-desktop="<?php echo base_url(); ?>/assets/img/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=1680&q=45&auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=450&q=45&auto=compress,format">
+<img id="about-hand" class="about-hand preload" alt="hand" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=1680&q=45&auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=450&q=45&auto=compress,format">
 
 <div class="ballin-wrapper state-0" tabindex="-1">
    <div class="bg" style="background-color: #ffab00;"></div>
@@ -80,12 +80,12 @@ $base_url = base_url();
          </h2>
 
 
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/31757118-7859-4a0b-a9bc-fe77f9c4263a_Plant.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/31757118-7859-4a0b-a9bc-fe77f9c4263a_Plant.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/997934eb-e15b-4276-a5f0-12ee88ce796f_Rainbow.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/997934eb-e15b-4276-a5f0-12ee88ce796f_Rainbow.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/8f1d6399-e101-435d-b540-db2bcfca7cff_Cat.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/8f1d6399-e101-435d-b540-db2bcfca7cff_Cat.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/31757118-7859-4a0b-a9bc-fe77f9c4263a_Plant.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/31757118-7859-4a0b-a9bc-fe77f9c4263a_Plant.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/997934eb-e15b-4276-a5f0-12ee88ce796f_Rainbow.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/997934eb-e15b-4276-a5f0-12ee88ce796f_Rainbow.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/8f1d6399-e101-435d-b540-db2bcfca7cff_Cat.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/8f1d6399-e101-435d-b540-db2bcfca7cff_Cat.png?q=50&w=300&auto=format">
       </div>
    </div>
 
@@ -117,13 +117,13 @@ $base_url = base_url();
          </h2>
 
 
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/ad0afe0e-1483-402b-9b1c-e2916557b8b7_Girl.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/ad0afe0e-1483-402b-9b1c-e2916557b8b7_Girl.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/b1f67fc4-2ea1-413a-b076-ac67917d9fbe_Flower.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/b1f67fc4-2ea1-413a-b076-ac67917d9fbe_Flower.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/49a12a65-7117-4191-a92e-e738fc09e5a2_Plant.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/49a12a65-7117-4191-a92e-e738fc09e5a2_Plant.png?q=50&w=300&auto=format">
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/82ec6d4d-c5e3-4e35-95b0-1c2c84dd9de0_Phone.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/82ec6d4d-c5e3-4e35-95b0-1c2c84dd9de0_Phone.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/ad0afe0e-1483-402b-9b1c-e2916557b8b7_Girl.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/ad0afe0e-1483-402b-9b1c-e2916557b8b7_Girl.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/b1f67fc4-2ea1-413a-b076-ac67917d9fbe_Flower.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/b1f67fc4-2ea1-413a-b076-ac67917d9fbe_Flower.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/49a12a65-7117-4191-a92e-e738fc09e5a2_Plant.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/49a12a65-7117-4191-a92e-e738fc09e5a2_Plant.png?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/82ec6d4d-c5e3-4e35-95b0-1c2c84dd9de0_Phone.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/82ec6d4d-c5e3-4e35-95b0-1c2c84dd9de0_Phone.png?q=50&w=300&auto=format">
       </div>
    </div>
 
@@ -155,7 +155,7 @@ $base_url = base_url();
          </h2>
 
 
-         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format">
+         <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format">
       </div>
    </div>
 
@@ -179,17 +179,17 @@ $base_url = base_url();
 </div>
 
 <div id="fire-wrapper" tabindex="-1">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
-   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
+   <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
 </div>
 
 <script>

@@ -38,7 +38,7 @@ $base_url = base_url();
          <article class="work-tile fw">
             <a href="/work/nylon/">
                <div class="cover-wrapper">
-                  <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/NYLON-vid-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/NYLON-vid-tumbnail.mp4"></video></div>
+                  <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-tumbnail.mp4"></video></div>
                </div>
                <div class="info">
                   <span>Redesigning an Iconic Magazine for the Internet Age.
@@ -54,7 +54,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/spoiled-child/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -67,7 +67,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/kizik/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/kizik-case-study_hero-edit-desktop-compressed.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/kizik-case-study_hero-edit-desktop-compressed.mp4"></video></div>
+                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/kizik-case-study_hero-edit-desktop-compressed.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/kizik-case-study_hero-edit-desktop-compressed.mp4"></video></div>
                   </div>
 
                   <div class="context s-el">
@@ -80,7 +80,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/byheart/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -93,7 +93,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/juvee/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -106,7 +106,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/poppi/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -119,7 +119,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/yardbird/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -132,7 +132,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/not-pot/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -145,7 +145,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/maev/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -158,7 +158,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/health-ade/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -171,7 +171,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/windmill/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4"></video></div>
+                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4"></video></div>
                   </div>
 
                   <div class="context s-el">
@@ -184,7 +184,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/plastic-credit-exchange/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -197,7 +197,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/enjjoy/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -210,7 +210,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/twice/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -223,7 +223,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/nyc-pride-2020-campaign/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -236,7 +236,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/elements/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -249,7 +249,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/canalstreetmarket/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -262,7 +262,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/alday/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4"></video></div>
+                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4"></video></div>
                   </div>
 
                   <div class="context s-el">
@@ -275,7 +275,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/buffy/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -288,7 +288,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/stardust/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -301,7 +301,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/remedy-place/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -314,7 +314,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/sodastream/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -327,7 +327,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/italic/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -340,7 +340,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/plenaire/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -353,7 +353,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/canvas/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4"></video></div>
+                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4"></video></div>
                   </div>
 
                   <div class="context s-el">
@@ -366,7 +366,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/robin-golf/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -379,7 +379,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="/work/chasing-paper/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -399,7 +399,7 @@ $base_url = base_url();
             <article class="work-tile fw" data-d-entrance="basic-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="https://d20.thisisastagingsite.com/" target="_blank" target="_blank" rel="noopener">
                   <div class="cover-wrapper">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/ed5b77b2-62a8-4693-b233-fed16d859748_Zero_Case_Study_DNC_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/dd110d71-9782-492a-9d8a-e5bfc12eb137_Zero_Case_Study_DNC_Featured_Image_Mobile.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/ed5b77b2-62a8-4693-b233-fed16d859748_Zero_Case_Study_DNC_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/dd110d71-9782-492a-9d8a-e5bfc12eb137_Zero_Case_Study_DNC_Featured_Image_Mobile.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
                   </div>
 
                   <div class="context" data-out="fade">
@@ -416,7 +416,7 @@ $base_url = base_url();
             <article class="work-tile fw" data-d-entrance="basic-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="https://two.zero.nyc/" target="_blank" target="_blank" rel="noopener">
                   <div class="cover-wrapper">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/ef72b03c-d850-4b96-a678-c3f45eb7e47b_Zero_Birthday_Site_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/41c12c8f-12b1-4d73-92a7-f57b1a7d102f_Zero_Birthday_Site_Featured_Mobile_Image.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/ef72b03c-d850-4b96-a678-c3f45eb7e47b_Zero_Birthday_Site_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/41c12c8f-12b1-4d73-92a7-f57b1a7d102f_Zero_Birthday_Site_Featured_Mobile_Image.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
                   </div>
 
                   <div class="context" data-out="fade">

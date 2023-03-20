@@ -443,8 +443,6 @@ $base_url = base_url();
                <div id="emoji-nav-links" class="links">
                   <a href="/contact/">contact</a>
                   <span>•</span>
-                  <!--<a href="https://boards.greenhouse.io/zerostudios" target="_blank">careers</a>-->
-
                   <a href="/careers/">careers</a>
                </div>
                <div class="domgl-email"></div>
