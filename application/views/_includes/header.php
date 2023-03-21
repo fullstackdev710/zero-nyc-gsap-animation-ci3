@@ -23,6 +23,18 @@ $base_url = base_url();
       const domain_url = `<?php echo base_url(); ?>`;
       console.log("Domain Url: ", domain_url)
    </script>
+
+   <!-- BEGIN PAGE LEVEL STYLES -->
+   <?php if (isset($styles)) {
+      foreach ($styles as $style) {
+         if (strpos($style, 'http') === 0) {
+            echo '<link href="' . $style . '" rel="stylesheet" type="text/css" />';
+         } else {
+            echo '<link href="' . $base_url . $style . '" rel="stylesheet" type="text/css" />';
+         }
+      }
+   } ?>
+   <!-- END PAGE LEVEL STYLES -->
 </head>
 
 <body style="--font: 'white-theme-font'; --font2: 'black-theme-font'; --font3: 'third-theme-font'; background-color:var(--secondary, #000000);">

@@ -283,6 +283,19 @@ $base_url = base_url();
    document.getElementsByTagName("head")[0].appendChild(stylesheet);
 </script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/assets/js/main.js?ver=<?php echo time(); ?>" defer></script>
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<?php if (isset($scripts)) {
+   foreach ($scripts as $script) {
+      if (strpos($script, 'http') === 0) {
+         echo '<script src="' . $script . '"></script>';
+      } else {
+         echo '<script src="' . $base_url . $script . '"></script>';
+      }
+   }
+} ?>
+<!-- END PAGE LEVEL SCRIPTS -->
+
 <p style="font-family: 'white-theme-font'" class="hidden">hidden</p>
 <p style="font-family: 'black-theme-font'" class="hidden">hidden</p>
 <p style="font-family: 'third-theme-font'" class="hidden">hidden</p>

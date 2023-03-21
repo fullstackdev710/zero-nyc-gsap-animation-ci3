@@ -10,11 +10,43 @@ $base_url = base_url();
 	<div class="view-home" data-router-view="home">
 		<section>
 			<div class="hero c-60" data-out="fade">
-				<h1>Zero is a <span class="custom-font">Digitally-Native</span> branding studio</h1>
+				<h1>The Digital Agency <span class="custom-font">of Revyrie</span>
+					<p>Complete 360° capabilities, with resources spanning technologies & site development, scalability, and marketing - short term or ongoing support.</p>
+				</h1>
 				<div class="scroll-indicator"></div>
 			</div>
 
 			<div class="featured-work work-grid c-60">
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="/work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp?q=65&w=1680&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg?q=65&w=550&auto=format" alt="">
+
+						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
+							<h1></h1>
+							<p></p>
+						</div>
+					</a>
+				</article>
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="/work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp?q=65&w=1680&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg?q=65&w=550&auto=format" alt="">
+
+						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
+							<h1></h1>
+							<p></p>
+						</div>
+					</a>
+				</article>
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="/work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp?q=65&w=1680&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg?q=65&w=550&auto=format" alt="">
+
+						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
+							<h1></h1>
+							<p></p>
+						</div>
+					</a>
+				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="/work/goodles/">
 						<video class="bg auto miq preload-critical mr" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/goodles-home-hero-case-study-alt_Converted.mp4"></video>
