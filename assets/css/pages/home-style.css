@@ -5,3 +5,10 @@
 html[style*="--primary:#000000;"] .white-icon {
 	filter: invert(1);
 }
+.lets-chat-div {
+	background-image: url(../../img/cta.jpg);
+	padding: 50px;
+	margin: auto;
+	max-width: 1140px;
+	background-size: cover;
+}
