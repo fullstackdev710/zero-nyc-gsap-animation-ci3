@@ -22,13 +22,13 @@ $base_url = base_url();
                <a href="<?= base_url() ?>work/">see all</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work/filter/consumer">Consumer</a>
+               <a href="<?= base_url() ?>work/?filter=consumer">Consumer</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work/filter/e-commerce">E Commerce</a>
+               <a href="<?= base_url() ?>work?filter=e-commerce">E Commerce</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work/filter/web">Web</a>
+               <a href="<?= base_url() ?>work?filter=web">Web</a>
             </li>
          </ul>
 
