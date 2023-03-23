@@ -1,0 +1,32 @@
+.contact-form {
+	max-width: 80%;
+	margin: auto;
+}
+.contact-form input,
+.contact-form textarea {
+	padding: 10px;
+	width: 100%;
+}
+.d-flex {
+	display: flex;
+}
+.w-50 {
+	width: 50% !important;
+}
+.w-100 {
+	width: 100% !important;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+@media screen and (min-width: 480px) {
+	.d-w-100 {
+		background-color: lightgreen;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.m-w-100 {
+		width: 100% !important;
+	}
+}

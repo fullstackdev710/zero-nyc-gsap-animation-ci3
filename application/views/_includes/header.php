@@ -15,9 +15,7 @@ $base_url = base_url();
    <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>/assets/img/favicon.png">
 
    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/global.css?ver=<?php echo time(); ?>" type="text/css" media="all" />
-   <noscript>
-      <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>" type="text/css" media="all" />
-   </noscript>
+   <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>" type="text/css" media="all" />
 
    <script>
       const domain_url = `<?php echo base_url(); ?>`;
@@ -46,14 +44,14 @@ $base_url = base_url();
             <div class="nav-emoji contact">
                <div id="envelope-hitbox" class="hitbox"></div>
                <div id="emoji-nav-links" class="links">
-                  <a href="/contact/">contact</a>
+                  <a href="<?= base_url() ?>contact/">contact</a>
                   <span>•</span>
-                  <a href="/careers/">careers</a>
+                  <a href="<?= base_url() ?>careers/">careers</a>
                </div>
                <div class="domgl-email"></div>
             </div>
 
-            <a class="logo" href="/" title="Home">
+            <a class="logo" href="<?= base_url() ?>" title="Home">
                <span class="logo-hitbox"></span><span class="visuallyhidden">Back to the home page</span></a>
 
             <div class="nav-emoji mode-triggers" aria-label="See page mode views" tabindex="0">
@@ -77,28 +75,28 @@ $base_url = base_url();
             </button>
             <div class="inner">
                <div class="content-wrapper">
-                  <a href="/work/" class="main-link">
+                  <a href="<?= base_url() ?>work/" class="main-link">
                      <div class="link-wrapper">
                         <span>Work
                            <span class="custom-font">Work
                            </span></span>
                      </div>
                   </a>
-                  <a href="/about-us/" class="main-link">
+                  <a href="<?= base_url() ?>about-us/" class="main-link">
                      <div class="link-wrapper">
                         <span>About
                            <span class="custom-font">About
                            </span></span>
                      </div>
                   </a>
-                  <a href="/contact/" class="main-link">
+                  <a href="<?= base_url() ?>contact/" class="main-link">
                      <div class="link-wrapper">
                         <span>Contact
                            <span class="custom-font">Contact
                            </span></span>
                      </div>
                   </a>
-                  <a href="/careers/" class="main-link">
+                  <a href="<?= base_url() ?>careers/" class="main-link">
                      <div class="link-wrapper">
                         <span>Careers
                            <span class="custom-font">Careers
@@ -127,7 +125,7 @@ $base_url = base_url();
                      </span>
                      <span class="second-text">Punk Peace Forever</span>
                   </p>
-                  <a href="/privacy-policy/" class="secondary-link">
+                  <a href="<?= base_url() ?>privacy-policy/" class="secondary-link">
                      Privacy Policy
                   </a>
                </div>
