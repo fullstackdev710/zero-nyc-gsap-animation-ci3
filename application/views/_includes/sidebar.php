@@ -19,24 +19,21 @@ $base_url = base_url();
          </div>
          <ul class="categories">
             <li>
-               <a href="/work/">see all</a>
+               <a href="<?= base_url() ?>work/">see all</a>
             </li>
             <li>
-               <a href="/work/?filter=branding">branding</a>
+               <a href="<?= base_url() ?>work/filter/consumer">Consumer</a>
             </li>
             <li>
-               <a href="/work/?filter=content">content</a>
+               <a href="<?= base_url() ?>work/filter/e-commerce">E Commerce</a>
             </li>
             <li>
-               <a href="/work/?filter=design">design</a>
-            </li>
-            <li>
-               <a href="/work/?filter=technology">technology</a>
+               <a href="<?= base_url() ?>work/filter/web">Web</a>
             </li>
          </ul>
 
          <article class="work-tile fw">
-            <a href="/work/nylon/">
+            <a href="<?= base_url() ?>work/nylon/">
                <div class="cover-wrapper">
                   <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-tumbnail.mp4"></video></div>
                </div>
@@ -50,340 +47,170 @@ $base_url = base_url();
          </article>
 
          <div class="work-grid">
-
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/spoiled-child/">
+               <a href="<?= base_url() ?>work/aperio-beauty/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/0a3be148-a8e6-4abc-9165-0d020c35f921_Zero-Work-Intro-Spoiled-Child-min.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Welcome to capsule culture
+                     <h3 class="full-width">Aperio Beauty
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/kizik/">
+               <a href="<?= base_url() ?>work/box-union/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/kizik-case-study_hero-edit-desktop-compressed.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/kizik-case-study_hero-edit-desktop-compressed.mp4"></video></div>
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box_union.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box_union.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Stepping it up with Kizik.
+                     <h3 class="full-width">Box Union
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/byheart/">
+               <a href="<?= base_url() ?>work/combo-boxing/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/49ba1f6f-38f4-4e3a-bd0a-c0555f8e739d_01-BH-Case-Study-Hero-Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/combo-2.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/combo-2.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">LAUNCHING THE MOTHER OF ALL FORMULAS
+                     <h3 class="full-width">Combo Boxing
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/juvee/">
+               <a href="<?= base_url() ?>work/hugga-feel/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/9e38ae21-edc7-4758-a3f5-5d1233f5f820_01_Juvee-CaseStudy-Hero.png?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga_clarity_revyrie.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">POWER PLAY: LAUNCHING JUVEE
+                     <h3 class="full-width">Hugga
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/poppi/">
+               <a href="<?= base_url() ?>work/rta-brand/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/6e740799-2e68-4c95-a40f-c1eeb79696a4_Zero_Work_poppi_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/RtaDenim_Clarity_Revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/RtaDenim_Clarity_Revyrie.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Having fun is fun. Launching a fun(ctional) prebiotic soda.
+                     <h3 class="full-width">RtA Denim
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/yardbird/">
+               <a href="<?= base_url() ?>work/gigi-c-bikinis/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/48381b3e-d35e-4183-81ef-936514bd44dc_Featured+Image.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/jonathan_simkhai_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/jonathan_simkhai_clarity_revyrie.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Outdoor living made easy: refreshing Yardbird.
+                     <h3 class="full-width">Jonathan Simkhai
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/not-pot/">
+               <a href="<?= base_url() ?>work/the-national-herald/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/b764042a-8193-42cf-9082-126464910b1c_notpot_hero-thumb.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Chill Out. It's Not Pot.
+                     <h3 class="full-width">The National Herald
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/maev/">
+               <a href="<?= base_url() ?>work/in-the-groove/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d65bf8bd-58eb-43d6-9e3d-e7bfab5e7ff3_HERO-IMAGE-1.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/getinthegroove_Clarity_Revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/getinthegroove_Clarity_Revyrie.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">The wellness brand for city dogs and their humans.
+                     <h3 class="full-width">In the Groove
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/health-ade/">
+               <a href="<?= base_url() ?>work/lokai-elements/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/71ffcfd1-8693-413d-9c86-fde5a44350b0_ha-01.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.png" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">We Helped Health-Ade Follow Their Gut
+                     <h3 class="full-width">Lokai & Elements
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/windmill/">
+               <a href="<?= base_url() ?>work/staud/">
                   <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/f5b65add-3c29-47a4-92ab-ffcfc02bc584_Windmill-spin-thumbnail.mp4"></video></div>
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Staud.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Staud.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">Launching the breeziest AC brand around.
+                     <h3 class="full-width">STAUD
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/plastic-credit-exchange/">
+               <a href="<?= base_url() ?>work/houseplant/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/191de14c-d743-4ec5-a22d-4714a759fcaf_Screen+Shot+2021-11-05+at+2.20+1.png?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">A NEW FACE FOR AN ENVIRONMENTAL AND SOCIAL NONPROFIT
+                     <h3 class="full-width">Houseplant
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/enjjoy/">
+               <a href="<?= base_url() ?>work/cubed-labs/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/3405a92b-cf99-4545-9884-2495b77770d2_enjjoy-header-071921.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">IT’S A MOOD. LAUNCHING ENJJOY
+                     <h3 class="full-width">Cubed Labs
                      </h3>
                   </div>
                </a>
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/twice/">
+               <a href="<?= base_url() ?>work/alwrld/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/7ba9a314-16d8-4255-ba3a-7c327e1086c3_01_Twice_HeroImage.jpg?q=65&w=750&auto=format" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.jpg" alt="">
                   </div>
 
                   <div class="context s-el">
-                     <h3 class="full-width">The difference is night and day.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/nyc-pride-2020-campaign/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/5a37f738-6d3d-4290-bc20-cc57e57659b0_Zero_Work_NYC_Pride_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Looking to the future while celebrating the past.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/elements/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d17b7820-e780-4429-96e0-e2e54f085b48_elements-hero-image.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Feel the Balance
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/canalstreetmarket/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/71f9ff30-a7ae-4966-abd6-413e294d2ca0_01_CanalSt_Hero.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Designing a Site as Eclectic as its Location.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/alday/">
-                  <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/9ef51ff0-5a23-4e6c-9d7e-75450bfa47db_Alday-Thumbnail-2.mp4"></video></div>
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">It's not pants. It's a state of mind. Launching Alday.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/buffy/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8674b3b-e99e-4071-bc8d-3808cf1c2c8b_Zero_Work_Buffy_Featured_Image.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Launching Buffy, the Fluffiest D2C Brand in the World.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/stardust/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/c31d545f-d273-4d85-9c3a-89b81d4b79e0_Background.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">At the intersection of arts & philanthropy.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/remedy-place/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/72ae4c25-3d8e-4e9c-b6c4-1ca47db6d952_RP_Interior.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Launching LA's First Social Wellness Club.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/sodastream/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/8fce4610-8da2-49ed-be2e-5e9822eee6cd_Zero_Case_Study_SodaStream_1_Hero.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Getting Bubbly with SodaStream.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/italic/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/dd87723f-4632-4460-a1a0-78c6ad0d126a_Zero_Work_Italic_Featured_Image_Desktop.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Luxury For Less: Launching Italic.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/plenaire/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/3f954078-c44b-436d-93ec-117101b70000_Plenaire-Hero-Desktop-min.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Skincare on a mission of empathy and self-discovery.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/canvas/">
-                  <div class="cover-wrapper s-el">
-                     <div class="cover"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/55b28265-fa20-44a7-b8bf-ab9c186dbf22_Zero_Work_Canvas_Featured_Image_animated.mp4"></video></div>
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Charting the way forward with Canvas.
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/robin-golf/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/a207d2d2-a5da-4078-91d8-31b93a3d3367_Zero-Robin-1-min.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Launching the No. 1 clubs for a good time
-                     </h3>
-                  </div>
-               </a>
-            </article>
-
-            <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="/work/chasing-paper/">
-                  <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/e14585f2-8288-4eab-87e9-3a55913ca2be_Zero_Work_CP_Cover.jpg?q=65&w=750&auto=format" alt="">
-                  </div>
-
-                  <div class="context s-el">
-                     <h3 class="full-width">Using the digital medium to inspire home design.
+                     <h3 class="full-width">ALWRLD
                      </h3>
                   </div>
                </a>
@@ -413,27 +240,10 @@ $base_url = base_url();
                   </div>
                </a>
             </article>
-            <article class="work-tile fw" data-d-entrance="basic-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="https://two.zero.nyc/" target="_blank" target="_blank" rel="noopener">
-                  <div class="cover-wrapper">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/ef72b03c-d850-4b96-a678-c3f45eb7e47b_Zero_Birthday_Site_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/41c12c8f-12b1-4d73-92a7-f57b1a7d102f_Zero_Birthday_Site_Featured_Mobile_Image.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
-                  </div>
-
-                  <div class="context" data-out="fade">
-                     <p class="left"><span class="link-out" aria-hidden="true">
-                           <span>➚</span>
-                           <span>➚</span>
-                        </span>Zero’s Second Birthday Party
-                     </p>
-                     <h3 class="right">Self Initiated
-                     </h3>
-                  </div>
-               </a>
-            </article>
          </section>
 
          <div data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-            <a href="/work/" class="banner-button">See all work</a>
+            <a href="<?= base_url() ?>work/" class="banner-button">See all work</a>
             <div class="quick-contact">
                <div class="wipe-bg"></div>
 
@@ -457,7 +267,7 @@ $base_url = base_url();
          <div class="top">
             <h2>About</h2>
             <p>Zero is a digitally-native branding agency with offices in New York and Milwaukee. We build next generation brands and digital experiences.</p>
-            <a class="read-more underline" href="/about-us/">Read more<span class="visuallyhidden">about us</span></a>
+            <a class="read-more underline" href="<?= base_url() ?>about-us/">Read more<span class="visuallyhidden">about us</span></a>
          </div>
          <div class="block">
             <h3>WTF is a digitally-native branding agency?</h3>
@@ -559,7 +369,7 @@ $base_url = base_url();
             <h3 data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">But wait, I have more questions</h3>
 
             <div class="drawer-end-wrapper" data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-               <a href="/about-us/" class="banner-button">Read more about Zero</a>
+               <a href="<?= base_url() ?>about-us/" class="banner-button">Read more about Zero</a>
 
                <div class="button-quad">
                   <a class="banner-button half-row" href="https://www.instagram.com/zero.studios/?hl=en" target="_blank" rel="noopener">@zero.nyc</a>
@@ -568,7 +378,7 @@ $base_url = base_url();
                      <div class="first-text"><span class="peace">&#9774;</span> <span>2023 Zero Studios, Inc.</span> <span class="peace">&#9774;</span></div>
                      <div class="second-text"><span>Punk Peace Forever</span></div>
                   </div>
-                  <a class="banner-button half-row" href="/privacy-policy/">Privacy Policy</a>
+                  <a class="banner-button half-row" href="<?= base_url() ?>privacy-policy/">Privacy Policy</a>
                </div>
             </div>
          </div>
