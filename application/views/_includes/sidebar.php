@@ -33,7 +33,7 @@ $base_url = base_url();
          </ul>
 
          <article class="work-tile fw">
-            <a href="<?= base_url() ?>work/nylon/">
+            <div>
                <div class="cover-wrapper">
                   <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-tumbnail.mp4"></video></div>
                </div>
@@ -43,7 +43,7 @@ $base_url = base_url();
                   <h3>Nylon
                   </h3>
                </div>
-            </a>
+            </div>
          </article>
 
          <div class="work-grid">
@@ -267,7 +267,7 @@ $base_url = base_url();
          <div class="top">
             <h2>About</h2>
             <p>Zero is a digitally-native branding agency with offices in New York and Milwaukee. We build next generation brands and digital experiences.</p>
-            <a class="read-more underline" href="<?= base_url() ?>about-us/">Read more<span class="visuallyhidden">about us</span></a>
+            <a class="read-more underline" href="<?= base_url() ?>about/">Read more<span class="visuallyhidden">about us</span></a>
          </div>
          <div class="block">
             <h3>WTF is a digitally-native branding agency?</h3>
@@ -369,7 +369,7 @@ $base_url = base_url();
             <h3 data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">But wait, I have more questions</h3>
 
             <div class="drawer-end-wrapper" data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-               <a href="<?= base_url() ?>about-us/" class="banner-button">Read more about Zero</a>
+               <a href="<?= base_url() ?>about/" class="banner-button">Read more about Zero</a>
 
                <div class="button-quad">
                   <a class="banner-button half-row" href="https://www.instagram.com/zero.studios/?hl=en" target="_blank" rel="noopener">@zero.nyc</a>
@@ -378,7 +378,7 @@ $base_url = base_url();
                      <div class="first-text"><span class="peace">&#9774;</span> <span>2023 Zero Studios, Inc.</span> <span class="peace">&#9774;</span></div>
                      <div class="second-text"><span>Punk Peace Forever</span></div>
                   </div>
-                  <a class="banner-button half-row" href="<?= base_url() ?>privacy-policy/">Privacy Policy</a>
+                  <a class="banner-button half-row" href="<?= base_url() ?>privacypolicy/">Privacy Policy</a>
                </div>
             </div>
          </div>

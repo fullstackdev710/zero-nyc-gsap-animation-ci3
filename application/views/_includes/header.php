@@ -82,7 +82,7 @@ $base_url = base_url();
                            </span></span>
                      </div>
                   </a>
-                  <a href="<?= base_url() ?>about-us/" class="main-link">
+                  <a href="<?= base_url() ?>about/" class="main-link">
                      <div class="link-wrapper">
                         <span>About
                            <span class="custom-font">About
@@ -125,7 +125,7 @@ $base_url = base_url();
                      </span>
                      <span class="second-text">Punk Peace Forever</span>
                   </p>
-                  <a href="<?= base_url() ?>privacy-policy/" class="secondary-link">
+                  <a href="<?= base_url() ?>privacypolicy/" class="secondary-link">
                      Privacy Policy
                   </a>
                </div>

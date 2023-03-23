@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class PrivacyPolicy extends CI_Controller
 {
 	public function index()
 	{
@@ -16,7 +16,7 @@ class Home extends CI_Controller
 
 		$this->load->view('_includes/header', ['styles' => $styles]);
 		$this->load->view('_includes/sidebar');
-		$this->load->view('home');
+		$this->load->view('privacy-policy');
 		$this->load->view('_includes/footer', ['scripts' => $scripts]);
 	}
 }
