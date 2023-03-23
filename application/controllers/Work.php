@@ -6,7 +6,7 @@ class Work extends CI_Controller
    public function index()
    {
       $styles = [
-         'assets/css/pages/home-style.css?ver=' . time(),
+         'assets/css/pages/work-all-style.css?ver=' . time(),
       ];
 
       $scripts = [
@@ -15,7 +15,8 @@ class Work extends CI_Controller
       ];
 
       $this->load->view('_includes/header', ['styles' => $styles]);
-      $this->load->view('home');
+      $this->load->view('_includes/sidebar');
+      $this->load->view('work/all');
       $this->load->view('_includes/footer', ['scripts' => $scripts]);
    }
 }

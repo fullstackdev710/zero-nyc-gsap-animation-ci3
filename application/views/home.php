@@ -18,34 +18,34 @@ $base_url = base_url();
 
 			<div class="featured-work work-grid c-60">
 				<article class="work-tile fw media-within bottom" data-out="fade">
-					<a href="<?= base_url() ?>work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp?q=65&w=1680&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg?q=65&w=550&auto=format" alt="">
+					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222.webp" alt="">
 
 						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
 							<h1></h1>
 							<p></p>
 						</div>
-					</a>
+					</div>
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
-					<a href="<?= base_url() ?>/work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp?q=65&w=1680&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg?q=65&w=550&auto=format" alt="">
+					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222222.webp" alt="">
 
 						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
 							<h1></h1>
 							<p></p>
 						</div>
-					</a>
+					</div>
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
-					<a href="<?= base_url() ?>/work/poppi/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f8f00437-54ba-4c69-a06a-332eafd1e122_poppi-mobile-hero.jpg" alt="">
+					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/333333333.webp" alt="">
 
 						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
 							<h1></h1>
 							<p></p>
 						</div>
-					</a>
+					</div>
 				</article>
 				<section class="about-callout c-120">
 					<div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
