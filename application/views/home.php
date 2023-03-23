@@ -16,37 +16,24 @@ $base_url = base_url();
 				<div class="scroll-indicator"></div>
 			</div>
 
+			<div class="full-bleed c-60 media-within">
+				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
+					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222.webp" alt="">
+				</div>
+			</div>
+			<div class="full-bleed c-60 media-within">
+				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
+					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222222.webp" alt="">
+				</div>
+			</div>
+			<div class="full-bleed c-60 media-within">
+				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
+					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/333333333.webp" alt="">
+				</div>
+			</div>
+
 			<div class="featured-work work-grid c-60">
-				<article class="work-tile fw media-within bottom" data-out="fade">
-					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222.webp" alt="">
 
-						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
-							<h1></h1>
-							<p></p>
-						</div>
-					</div>
-				</article>
-				<article class="work-tile fw media-within bottom" data-out="fade">
-					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222222.webp" alt="">
-
-						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
-							<h1></h1>
-							<p></p>
-						</div>
-					</div>
-				</article>
-				<article class="work-tile fw media-within bottom" data-out="fade">
-					<div data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/333333333.webp" alt="">
-
-						<div class="copy cml-60 color-override" style="--primary-override: #ec008c">
-							<h1></h1>
-							<p></p>
-						</div>
-					</div>
-				</article>
 				<section class="about-callout c-120">
 					<div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
 						<div class="text s-el" style="opacity: 1;">
@@ -127,6 +114,7 @@ $base_url = base_url();
 						</div>
 					</div>
 				</section>
+
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
 						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.jpg" alt="">
