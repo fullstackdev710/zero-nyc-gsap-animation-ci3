@@ -265,120 +265,118 @@ $base_url = base_url();
       <div class="inner">
          <button class="drawer-close js-tabshow">Close</button>
          <div class="top">
-            <h2>About</h2>
-            <p>Zero is a digitally-native branding agency with offices in New York and Milwaukee. We build next generation brands and digital experiences.</p>
+            <h2>The Digital Agency of Revyrie</h2>
+            <p>Complete 360° capabilities, with resources spanning technologies & site development, scalability, and marketing - short term or ongoing support.</p>
             <a class="read-more underline" href="<?= base_url() ?>about/">Read more<span class="visuallyhidden">about us</span></a>
          </div>
-         <div class="block">
-            <h3>WTF is a digitally-native branding agency?</h3>
-            <div class="svg-wrapper">
-               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 904 551" style="enable-background:new 0 0 904 551;" xml:space="preserve">
-                  <title>A Venn Diagram of Zero</title>
-                  <desc>Zero is at the sweet spot where traditional branding agencies and digital agencies meet.</desc>
+         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
+            <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+               <div class="d-flex align-center s-el" style="opacity: 1;">
+                  <div class="inner" data-out="fade">
+                     <h4>KEY E-COMM PLATFORMS:</h4>
+                     <div class="wysiwyg">
+                        <ul>
+                           <li>Shopify Basic / Plus</li>
+                           <li>Customized Woocommerce</li>
+                           <li>WordPress</li>
+                           <li>Magento</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="s-el media fill-space" style="opacity: 1; padding: 0 10%" data-out="fade">
+                  <div class="media-wrapper full">
+                     <img class="bg white-icon d-flex align-center" alt="" src="<?php echo base_url(); ?>/assets/img/icons/e-comm-service.png">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
+            <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+               <div class="d-flex align-center s-el" style="opacity: 1;">
+                  <div class="inner" data-out="fade">
+                     <h4>FEATURED CAPABILITIES:</h4>
+                     <div class="wysiwyg">
+                        <ul>
+                           <li>Full Stack</li>
+                           <li>Dedicated Back-End / Server Administration / API management</li>
+                           <li>UI / UX Design</li>
+                           <li>Email & Campaign Management</li>
+                           <li>Custom Membership Solutions</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="s-el media fill-space" style="opacity: 1; padding: 0 10%" data-out="fade">
+                  <div class="media-wrapper full">
+                     <img class="bg white-icon d-flex align-center" alt="" src="<?php echo base_url(); ?>/assets/img/icons/featured-service.png">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
+            <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+               <div class="d-flex align-center s-el" style="opacity: 1;">
+                  <div class="inner" data-out="fade">
+                     <h4>SOLUTION INTEGRATIONS:</h4>
+                     <div class="wysiwyg">
+                        <ul>
+                           <li>3PLs - Shiphero, Whiplash, etc.</li>
+                           <li>ERP - Aims360, Apparel Magic, Circle</li>
+                           <li>CRM - Salesforce, DebtPayPro, Zoho</li>
+                           <li>Cloud/Server - AWS, Azure</li>
+                           <li>WordPress - Custom and Vanilla</li>
+                           <li>Payments - Stripe, Authorize.net, Paypal Email Management & Flow</li>
+                           <li>Handling - Klaviyo, Bluecore, Mailchimp</li>
+                           <li>Customer Support Systems - Intercom, Gorgias, Zendesk, Zoho</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="s-el media fill-space" style="opacity: 1; padding: 0 10%" data-out="fade">
+                  <div class="media-wrapper full">
+                     <img class="bg white-icon d-flex align-center" alt="" src="<?php echo base_url(); ?>/assets/img/icons/solution-service.png">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
+            <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+               <div class="d-flex align-center s-el" style="opacity: 1;">
+                  <div class="inner" data-out="fade">
+                     <h4>MARKETING / SEO:</h4>
+                     <div class="wysiwyg">
+                        <ul>
+                           <li>Facebook / Instagram</li>
+                           <li>Digital Ad Spend - Google / Socials</li>
+                           <li>Heatmapping</li>
+                           <li>Real time decision making</li>
+                           <li>SEO Optimization</li>
+                           <li>Detailed Reporting</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="s-el media fill-space" style="opacity: 1; padding: 0 10%" data-out="fade">
+                  <div class="media-wrapper full">
+                     <img class="bg white-icon d-flex align-center" alt="" src="<?php echo base_url(); ?>/assets/img/icons/digital-marketing-service.png">
+                  </div>
+               </div>
+            </div>
+         </div>
 
-                  <style type="text/css">
-                     .about-drawer-path {
-                        fill: var(--primary);
-                     }
-
-                     .about-drawer-copy {
-                        font-size: 16px;
-                        font-family: "GTAmerica-Regular", sans-serif;
-                     }
-
-                     .about-drawer-circle-stroke {
-                        fill: none;
-                        stroke: var(--primary);
-                        stroke-width: 3;
-                     }
-                  </style>
-
-                  <text transform="matrix(1 0 0 1 124.992 262)" class="about-drawer-path about-drawer-copy">TRADITIONAL </text>
-                  <text transform="matrix(1 0 0 1 135.376 282)" class="about-drawer-path about-drawer-copy">BRANDING </text>
-                  <text transform="matrix(1 0 0 1 145.408 302)" class="about-drawer-path about-drawer-copy">AGENCY</text>
-                  <text transform="matrix(1 0 0 1 671.992 262)" class="about-drawer-path about-drawer-copy">TRADITIONAL</text>
-                  <text transform="matrix(1 0 0 1 813.8311 262)" class="about-drawer-path about-drawer-copy"> </text>
-                  <text transform="matrix(1 0 0 1 694.512 282)" class="about-drawer-path about-drawer-copy">DIGITAL </text>
-                  <text transform="matrix(1 0 0 1 692.408 302)" class="about-drawer-path about-drawer-copy">AGENCY</text>
-                  <circle class="about-drawer-path about-drawer-circle-stroke" cx="275.5" cy="275.5" r="273.5"></circle>
-                  <circle class="about-drawer-path about-drawer-circle-stroke" cx="628.5" cy="275.5" r="273.5"></circle>
-                  <circle class="about-drawer-path" cx="452" cy="276" r="25"></circle>
-               </svg>
-
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>Got it. But why does that matter?</h3>
-            <div class="wysiwyg">
-               <p>We believe that everything is branding. The emails you send, the code you write, the packaging people tear open. Everything. We also know that nowadays most things are digital. Not everything. But quite a bit. So we think that the folks helping to define why you exist and why consumers should give a shit, should be the same folks that bring that message to life, across channels.</p>
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>Does that mean you only take on full-service engagements?</h3>
-            <div class="wysiwyg">
-               <p>No. While much of what we do is help businesses go to market, we also work as specialists at times. Meaning, we take on projects building websites, shooting content, building campaigns, establishing positioning and naming, voice &amp; tone, etc.</p>
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>Who do you typically like to work with?</h3>
-            <div class="wysiwyg">
-               <p>We work with people that are doing something good for the world. Often, this means working directly with founders to help them bring their vision to life. Other times, it&rsquo;s with select fortune 500 companies. We started Zero in search of a better quality of life and value the time we spend making things with people. If we&rsquo;re going to solve problems together, we might as well enjoy it.</p>
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>Hmm sounds pretty cool, tbh. What services do you offer?</h3>
-            <div class="wysiwyg">
-               <p>Branding, design, content &amp; technology:</p>
-               <ul>
-                  <li>Naming</li>
-                  <li>Brand Strategy &amp; Positioning </li>
-                  <li>Logo &amp; Identity</li>
-                  <li>Voice &amp; Tone</li>
-                  <li>Brand Books &amp; Style Guides </li>
-                  <li>Art Direction</li>
-                  <li>Copywriting</li>
-                  <li>Illustration</li>
-                  <li>Styling</li>
-                  <li>Design</li>
-                  <li>User Experience Design </li>
-                  <li>Full Stack Development </li>
-                  <li>Mobile &amp; App Development</li>
-                  <li>Ecommerce</li>
-                  <li>Packaging</li>
-                  <li>Content Strategy &amp; Production</li>
-                  <li>Content Production</li>
-                  <li>Brand Activations &amp; Experiences</li>
-                  <li>Digital &amp; Traditional Advertising</li>
-                  <li>In-store Retail Design</li>
-               </ul>
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>DANG, Y&rsquo;ALL ARE COOL. WHAT&rsquo;S THE PROCESS TYPICALLY LIKE?</h3>
-            <div class="wysiwyg">
-               <p>Full-service partnerships: Discovery &amp; Research &rarr; Strategy &amp; Voice &rarr; Branding &amp; Identity &rarr; UX &amp; Content &rarr; Design &amp; Development &rarr; BFFs</p>
-            </div>
-         </div>
-         <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
-            <h3>Nice, I need all of that. How much do you charge?</h3>
-            <div class="wysiwyg">
-               <p>It depends on the length of the engagement, complexity, and deliverables - but our studio minimum is $100k.</p>
-            </div>
-         </div>
          <div class="block">
             <h3 data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">But wait, I have more questions</h3>
 
             <div class="drawer-end-wrapper" data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-               <a href="<?= base_url() ?>about/" class="banner-button">Read more about Zero</a>
+               <a href="<?= base_url() ?>about/" class="banner-button">Read more about Clarity</a>
 
                <div class="button-quad">
-                  <a class="banner-button half-row" href="https://www.instagram.com/zero.studios/?hl=en" target="_blank" rel="noopener">@zero.nyc</a>
-                  <a class="banner-button half-row" href="mailto:some1@zero.nyc">some1@zero.nyc</a>
+                  <a class="banner-button half-row" href="mailto:<?= COMPANY_EMAIL ?>"><?= COMPANY_EMAIL ?></a>
                   <div class="banner-button half-row switch-text">
-                     <div class="first-text"><span class="peace">&#9774;</span> <span>2023 Zero Studios, Inc.</span> <span class="peace">&#9774;</span></div>
+                     <div class="first-text"><span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span></div>
                      <div class="second-text"><span>Punk Peace Forever</span></div>
                   </div>
-                  <a class="banner-button half-row" href="<?= base_url() ?>privacypolicy/">Privacy Policy</a>
                </div>
             </div>
          </div>

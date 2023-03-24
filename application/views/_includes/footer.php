@@ -45,8 +45,10 @@ $base_url = base_url();
    <div class="quick-contact" data-entrance="wipe-bg" data-offset=".86" data-offset-mobile=".8" data-out="fade">
       <div class="wipe-bg"></div>
 
-      <a href="https://www.instagram.com/zero.studios/" target="_blank" target="_blank" rel="noopener" class="handle banner-button"><?= COMPANY_COPYRIGHT_TEXT ?>
-      </a>
+      <div class="banner-button half-row switch-text">
+         <div class="first-text"><span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span></div>
+         <div class="second-text"><span>Punk Peace Forever</span></div>
+      </div>
 
       <a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button"><?= COMPANY_EMAIL ?>
       </a>
@@ -164,8 +166,6 @@ $base_url = base_url();
       <div class="headline">
          <h2 class="custom-font">Nice
          </h2>
-
-
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/6eeaae59-a592-466b-9224-55b8986575b3_Earth.png?q=50&w=300&auto=format">
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/fcbc7d53-7574-41d8-9970-608606acc060_Fruit.png?q=50&w=300&auto=format">
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/aef0cedb-dd76-4fe5-8c00-d911de0a5b05_Newspaper.png?q=50&w=300&auto=format">
@@ -199,10 +199,7 @@ $base_url = base_url();
 
    <div class="headline-wrapper">
       <div class="headline">
-         <h2 class="custom-font">Very Nice
-         </h2>
-
-
+         <h2 class="custom-font">Very Nice</h2>
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/5a98d84c-e88a-4045-800e-1238caca2135_cat.png?q=50&w=300&auto=format">
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/d3e59d58-8520-4be4-9440-1bff4956a4e0_iStock-1133460279.png?q=50&w=300&auto=format">
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/0c86fa86-4ef5-49f3-b815-26f1f524b208_TV.png?q=50&w=300&auto=format">
@@ -237,9 +234,7 @@ $base_url = base_url();
 
    <div class="headline-wrapper">
       <div class="headline">
-         <h2 class="custom-font">Hot Stuff
-         </h2>
-
+         <h2 class="custom-font">Hot Stuff</h2>
 
          <img alt="" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?q=50&w=300&auto=format">
       </div>

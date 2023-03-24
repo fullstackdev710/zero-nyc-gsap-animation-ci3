@@ -12,3 +12,8 @@ html[style*="--primary:#000000;"] .white-icon {
 	max-width: 1140px;
 	background-size: cover;
 }
+article.work-tile div.copy.color-override {
+	background-color: #ffcc00;
+	opacity: 0.75 !important;
+	padding: 20px;
+}

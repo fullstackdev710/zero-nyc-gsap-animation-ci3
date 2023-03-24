@@ -134,7 +134,7 @@ svg {
 }
 @media screen and (max-width: 1440px) {
 	.hero p {
-		font-size: 30px;
+		font-size: 20px;
 	}
 }
 .hero video {
@@ -1474,12 +1474,18 @@ video.manual {
 	}
 }
 .drawer-content.about .block ul {
-	column-count: 3;
+	column-count: 1;
 }
 .drawer-content.about .block ul li {
 	font-family: GTAmerica-Regular, sans-serif;
 	font-size: 1.11111vw;
 	line-height: 1.75;
+}
+.drawer-content.about .two-up img {
+	/* position: relative;
+	max-width: 300px;
+	max-height: 300px;
+	margin: auto; */
 }
 @media screen and (max-width: 1260px) {
 	.drawer-content.about .block ul li {
@@ -1580,11 +1586,12 @@ video.manual {
 }
 .view-home .hero h1 {
 	color: var(--primary);
-	font-size: 6.94444vw;
+	font-size: 5.94444vw;
 	line-height: 1;
 	margin-bottom: 0;
 	margin-top: 0.83333vw;
 	text-transform: uppercase;
+	max-width: 80%;
 }
 @media screen and (max-width: 648px) {
 	.view-home .hero h1 {
@@ -2160,8 +2167,7 @@ video.manual {
 	justify-content: flex-end;
 	text-align: right;
 }
-.two-up .media,
-.two-up .text {
+.two-up > div {
 	width: 50%;
 }
 .two-up .media {

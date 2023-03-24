@@ -74,7 +74,12 @@ body {
 	font-family: GTAmerica-Medium, sans-serif;
 	font-weight: 500;
 }
-
+.d-flex {
+	display: flex !important;
+}
+.align-center {
+	align-items: center !important;
+}
 #main {
 	position: relative;
 	z-index: 3;
