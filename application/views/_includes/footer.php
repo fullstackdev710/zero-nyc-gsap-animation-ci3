@@ -102,6 +102,20 @@ $base_url = base_url();
          </svg>
 
       </span>
+      <span class="letter z">
+
+         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
+            <path d="M193.8,61H7.3V6.9h261.5V61L75,323.1h201.6v53.7H0v-54.2L193.8,61z" />
+         </svg>
+
+      </span>
+      <span class="letter z">
+
+         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
+            <path d="M193.8,61H7.3V6.9h261.5V61L75,323.1h201.6v53.7H0v-54.2L193.8,61z" />
+         </svg>
+
+      </span>
 
       <span class="letter e">
          <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
