@@ -80,16 +80,12 @@
          <p style="opacity: 1;">Zero is a <strong>digitally<span>-</span>native</strong> branding agency with offices in <strong>New York</strong> and <strong>Milwaukee</strong>. We build next generation brands and digital experiences.</p>
       </section>
 
-
-      <div class="overflow-wrapper">
-         <img class="full-width-img" data-out="fade" alt="A person stands in front of a mural holding an illuminated Zero Studios logo." src="blob:https://zero.nyc/43f56bc1-6c76-4b77-a55a-084175872770" style="opacity: 1;">
-      </div>
       <section class="staff c-120">
          <h2 class="visuallyhidden">Staff</h2>
          <div class="partners media-within" data-out="fade" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
             <div class="partner s-el" style="opacity: 1;">
                <div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
-                  <img class="bg" alt="" src="blob:https://zero.nyc/e20b0d5a-2485-490c-9cb3-2998f95ac99b">
+                  <img class="bg" alt="" src="<?php echo base_url(); ?>/assets/img/combo-2.jpg">
                </div>
                <h3><a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">Mark Goldwell
                   </a></h3>
@@ -98,7 +94,7 @@
             </div>
             <div class="partner s-el" style="opacity: 1;">
                <div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
-                  <img class="bg" alt="" src="blob:https://zero.nyc/1fd82bbc-d111-442d-856f-b7de97c1dd30">
+                  <img class="bg" alt="" src="<?php echo base_url(); ?>/assets/img/combo-2.jpg">
                </div>
                <h3><a href="javascript:void(0);" class="modal-trigger" data-modal="joseph-f.-delaney-iii" aria-label="Read Bio">Joseph F. Delaney III
                   </a></h3>
@@ -107,7 +103,7 @@
             </div>
             <div class="partner s-el" style="opacity: 1;">
                <div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
-                  <img class="bg" alt="" src="blob:https://zero.nyc/c4efaf7d-f2d2-4943-af32-8d88d9da4805">
+                  <img class="bg" alt="" src="<?php echo base_url(); ?>/assets/img/combo-2.jpg">
                </div>
                <h3><a href="javascript:void(0);" class="modal-trigger" data-modal="chelsea-goldwell" aria-label="Read Bio">Chelsea Goldwell
                   </a></h3>
