@@ -176,3 +176,112 @@ $base_url = base_url();
 				</article>
 			</div>
 		</section>
+		<section class="about-callout c-120">
+			<div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+				<div class="text s-el" style="opacity: 1;">
+					<div class="inner" data-out="fade">
+						<p>HOW WE WORK</p>
+						<h4>How Do We Create<br />Better Products.</h4>
+						<ul>
+							<li>Exceptional technical capabilities at highly competitive rates</li>
+							<li>Dedicated management to ensure tech is aligned with business needs</li>
+							<li>Augmentation of in-house teams for deeper &amp; complex customizations</li>
+							<li>Ability to standup, build, and support content strategy, SEO, &amp; digital ads</li>
+						</ul>
+					</div>
+				</div>
+				<div class="s-el media fill-space" style="opacity: 1;" data-out="fade">
+					<div class="media-wrapper full">
+						<img class="bg white-icon" alt="" src="<?php echo base_url(); ?>/assets/img/Clarity-Image-2.webp">
+					</div>
+				</div>
+			</div>
+			<div class="c-60 all-work-button" data-out="fade">
+				<div data-entrance="wipe-bg" data-offset=".98" data-offset-mobile=".8">
+					<div class="wipe-bg"></div>
+					<a href="<?= base_url() ?>work/" class="banner-button">See all Portfolio</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="staff c-120 view-about-us">
+			<h2 class="visuallyhidden">Staff</h2>
+			<div class="partners media-within" data-out="fade" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+				<div class="partner s-el" style="opacity: 1;">
+					<div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
+						<img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
+					</div>
+					<h3>
+						<a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">40+</a>
+					</h3>
+					<p>Companies Built</p>
+				</div>
+				<div class="partner s-el" style="opacity: 1;">
+					<div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
+						<img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
+					</div>
+					<h3>
+						<a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">6+</a>
+					</h3>
+					<p>Portfolio Exits</p>
+				</div>
+				<div class="partner s-el" style="opacity: 1;">
+					<div class="ar-wrapper" style="--dar: 133%; --mar: 133%;">
+						<img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
+					</div>
+					<h3>
+						<a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">130+</a>
+					</h3>
+					<p>In House Developers</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-callout c-120">
+			<div data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
+				<div class="lets-chat-div">
+					<p>LET'S CHAT</p>
+					<h2>Partner with us</h2>
+					<a class="read-more underline" href="<?= base_url() ?>contact/">GET STARTED</a>
+				</div>
+			</div>
+
+			<div class="quick-contact" data-entrance="wipe-bg" data-offset=".86" data-offset-mobile=".8" data-out="fade">
+				<div class="wipe-bg"></div>
+
+				<div class="banner-button half-row switch-text">
+					<div class="first-text"><span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span></div>
+					<div class="second-text"><span>Punk Peace Forever</span></div>
+				</div>
+
+				<a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button"><?= COMPANY_EMAIL ?>
+				</a>
+			</div>
+
+			<!-- <h2 class="visuallyhidden">Our Locations</h2> -->
+			<div class="office-snapshots media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
+				<a href="https://revyrie.com/" class="office parallax-hover s-el" data-out="fade">
+					<div class="ar-wrapper" style="--dar: 117.5%; --mar: 117.5%;">
+						<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>assets/img/Clarity_Logo_Site.jpg" alt="">
+					</div>
+					<address class="address move-el">
+						<h1 class="modal-trigger">
+							REVYRIE
+						</h1>
+					</address>
+				</a>
+				<a href="<?php echo base_url(); ?>" class="office parallax-hover s-el" data-out="fade">
+					<div class="ar-wrapper" style="--dar: 117.625%; --mar: 117.5%;">
+						<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>assets/img/Clarity_Logo_Site.jpg" alt="">
+					</div>
+					<address class="address move-el">
+						<h1 class="modal-trigger">
+							CLARITY
+						</h1>
+					</address>
+				</a>
+			</div>
+		</section>
+
+	</div>
+</main>

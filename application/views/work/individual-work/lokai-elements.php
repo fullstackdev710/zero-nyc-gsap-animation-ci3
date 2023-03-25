@@ -56,3 +56,5 @@
          <h2 class="closing-link" data-out="fade"><a class="underline" target="_blank" href="https://lokai.com/">Lokai & Elements <span class="arrow-wrapper"><span class="link-out">➚</span><span class="link-out">➚</span></span></a></h2>
          <h2 class="closing-link" data-out="fade"><a class="underline" target="_blank" href="https://www.instagram.com/livelokai/">Instagram <span class="arrow-wrapper"><span class="link-out">➚</span><span class="link-out">➚</span></span></a></h2>
       </section>
+   </div>
+</main>

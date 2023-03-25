@@ -56,3 +56,5 @@
          <h2 class="closing-link" data-out="fade"><a class="underline" target="_blank" href="https://www.boxunion.com/">Box Union <span class="arrow-wrapper"><span class="link-out">➚</span><span class="link-out">➚</span></span></a></h2>
          <h2 class="closing-link" data-out="fade"><a class="underline" target="_blank" href="https://www.instagram.com/boxunionstudio/">Instagram <span class="arrow-wrapper"><span class="link-out">➚</span><span class="link-out">➚</span></span></a></h2>
       </section>
+   </div>
+</main>
