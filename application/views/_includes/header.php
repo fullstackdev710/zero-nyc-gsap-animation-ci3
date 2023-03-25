@@ -105,27 +105,26 @@ $base_url = base_url();
                   </a>
 
                   <div class="contact">
-                     <a href="https://www.instagram.com/zero.studios/" target="_blank" class="secondary-link" target="_blank" rel="noopener">
-                        @Zero.Studios
-                     </a>
-                     <a href="mailto:some1@zero.nyc" class="secondary-link">
-                        SOME1@ZERO.NYC
+                     <div class="handle banner-button">
+                        <span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span>
+                     </div>
+
+                     <a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button">
+                        <?= COMPANY_EMAIL ?>
                      </a>
                   </div>
 
 
-                  <a href="https://www.google.com/maps/place/265+Canal+St,+New+York,+NY+10013/@40.7189376,-74.003147,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598a1c3945dd:0x6b44c616961ec727!8m2!3d40.7189336!4d-74.000953" class="secondary-link" target="_blank" rel="noopener">
-                     NYC • 265 CANAL ST #604
-                  </a>
-                  <a href="https://www.google.com/maps/place/320+E+Buffalo+St,+Milwaukee,+WI+53202/@43.0342528,-87.9085505,17z/data=!3m1!4b1!4m5!3m4!1s0x880519a5d50eb0ef:0x5d6f5ef1971a9634!8m2!3d43.0342489!4d-87.9063565" class="secondary-link" target="_blank" rel="noopener">
-                     MKE • 320 BUFFALO ST #415
+                  <a href="#" class="secondary-link" target="_blank" rel="noopener" style="display: none">
+
                   </a>
                   <p class="secondary-link switch-text">
-                     <span class="first-text">☮ 2020 ZERO STUDIOS, INC ☮
-                     </span>
-                     <span class="second-text">Punk Peace Forever</span>
+                     <span class="first-text">☮ <?= COMPANY_COPYRIGHT_TEXT ?> ☮</span>
                   </p>
-                  <a href="<?= base_url() ?>privacypolicy/" class="secondary-link">
+                  <p class="secondary-link switch-text">
+                     <span class="first-text">☮ <?= COMPANY_NAME ?> ☮</span>
+                  </p>
+                  <a href="<?= base_url() ?>privacypolicy/" class="secondary-link" style="display: none">
                      Privacy Policy
                   </a>
                </div>
