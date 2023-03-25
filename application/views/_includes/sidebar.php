@@ -35,7 +35,7 @@ $base_url = base_url();
          <article class="work-tile fw">
             <div>
                <div class="cover-wrapper">
-                  <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-2.mp4" data-preload-mobile="<?php echo base_url(); ?>/assets/video/demo/NYLON-vid-tumbnail.mp4"></video></div>
+                  <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>assets/video/intro-video.mp4" data-preload-mobile="<?php echo base_url(); ?>assets/video/intro-video.mp4"></video></div>
                </div>
                <div class="info">
                   <span>Redesigning an Iconic Magazine for the Internet Age.
@@ -218,39 +218,17 @@ $base_url = base_url();
 
          </div>
 
-         <section class="special-projects">
-            <div class="headline-wrapper" data-d-entrance="basic-fade" data-offset=".8" data-offset-mobile=".85">
-               <h3>Special <strong class='custom-font'>Projects</strong></h3>
-            </div>
-
-            <article class="work-tile fw" data-d-entrance="basic-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="https://d20.thisisastagingsite.com/" target="_blank" target="_blank" rel="noopener">
-                  <div class="cover-wrapper">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/ed5b77b2-62a8-4693-b233-fed16d859748_Zero_Case_Study_DNC_Featured_Image.jpg?q=65&w=1440&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/dd110d71-9782-492a-9d8a-e5bfc12eb137_Zero_Case_Study_DNC_Featured_Image_Mobile.jpg?q=65&w=550&auto=format" data-out="fade" alt="">
-                  </div>
-
-                  <div class="context" data-out="fade">
-                     <p class="left"><span class="link-out" aria-hidden="true">
-                           <span>➚</span>
-                           <span>➚</span>
-                        </span>2020 Democratic National Convention brand microsite
-                     </p>
-                     <h3 class="right">Democratic National Convention
-                     </h3>
-                  </div>
-               </a>
-            </article>
-         </section>
-
          <div data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
             <a href="<?= base_url() ?>work/" class="banner-button">See all work</a>
             <div class="quick-contact">
                <div class="wipe-bg"></div>
 
-               <a href="https://www.instagram.com/zero.studios/" target="_blank" target="_blank" rel="noopener" class="handle banner-button">@Zero.Studios
-               </a>
+               <div class="handle banner-button">
+                  <span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span>
+               </div>
 
-               <a href="mailto:some1@zero.nyc" class="email banner-button">SOME1@ZERO.NYC
+               <a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button">
+                  <?= COMPANY_EMAIL ?>
                </a>
             </div>
          </div>
@@ -368,15 +346,18 @@ $base_url = base_url();
          <div class="block">
             <h3 data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">But wait, I have more questions</h3>
 
-            <div class="drawer-end-wrapper" data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
+            <div data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
                <a href="<?= base_url() ?>about/" class="banner-button">Read more about Clarity</a>
+               <div class="quick-contact">
+                  <div class="wipe-bg"></div>
 
-               <div class="button-quad">
-                  <a class="banner-button half-row" href="mailto:<?= COMPANY_EMAIL ?>"><?= COMPANY_EMAIL ?></a>
-                  <div class="banner-button half-row switch-text">
-                     <div class="first-text"><span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span></div>
-                     <div class="second-text"><span>Punk Peace Forever</span></div>
+                  <div class="handle banner-button">
+                     <span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span>
                   </div>
+
+                  <a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button">
+                     <?= COMPANY_EMAIL ?>
+                  </a>
                </div>
             </div>
          </div>

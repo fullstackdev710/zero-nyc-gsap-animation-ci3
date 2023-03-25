@@ -1549,7 +1549,7 @@ video.manual {
 }
 .drawer-end-wrapper .half-row:first-child,
 .drawer-end-wrapper .half-row:nth-child(2) {
-	/* border-bottom: none; */
+	border-bottom: none;
 }
 .drawer-end-wrapper .peace:first-child {
 	margin-right: 1.38889vw;
