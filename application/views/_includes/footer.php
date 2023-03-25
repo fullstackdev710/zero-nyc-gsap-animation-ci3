@@ -93,55 +93,32 @@ $base_url = base_url();
 </main>
 
 <footer id="footer" class="media-within">
-   <button class="back-to-top" data-out="footer" data-entrance="footer" data-offset=".85" data-offset-mobile=".9" aria-label="ZERO Return to top of page">
+   <h1>CLARITY</h1>
+   <button class="back-to-top" data-out="footer" data-entrance="footer" data-offset=".85" data-offset-mobile=".9" aria-label="CLARITY Return to top of page">
 
-      <span class="letter z">
-
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-            <path d="M193.8,61H7.3V6.9h261.5V61L75,323.1h201.6v53.7H0v-54.2L193.8,61z" />
-         </svg>
-
+      <span class="letter c">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-C.png">
       </span>
-      <span class="letter z">
-
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-            <path d="M193.8,61H7.3V6.9h261.5V61L75,323.1h201.6v53.7H0v-54.2L193.8,61z" />
-         </svg>
-
+      <span class="letter l">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-L.png">
       </span>
-      <span class="letter z">
-
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-            <path d="M193.8,61H7.3V6.9h261.5V61L75,323.1h201.6v53.7H0v-54.2L193.8,61z" />
-         </svg>
-
+      <span class="letter a">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-A.png">
       </span>
-
-      <span class="letter e">
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-            <path d="M577.3,324.1v52.6H333.4V6.9h240.2v52.6h-173v101.6h164.1v52.1H400.6v111H577.3z" />
-         </svg>
-      </span>
-
       <span class="letter r">
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-            <path d="M785.7,228.3h-65.1v148.5h-67.2V6.9h149c44.8,0,77.4,10.2,97.7,30.5c20.3,20.3,30.5,47.1,30.5,80.5c0,23.6-6.4,44.6-19.3,63
-            c-12.9,18.4-32.3,31.3-58.4,38.6l88,157.3h-74L785.7,228.3z M720.5,178.3h70.3c46.2,0,69.3-20.1,69.3-60.4
-            c0-39.9-23.1-59.9-69.3-59.9h-70.3V178.3z" />
-         </svg>
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-R.png">
+      </span>
+      <span class="letter i">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-I.png">
+      </span>
+      <span class="letter t">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-T.png">
+      </span>
+      <span class="letter y">
+         <img src="" alt="" srcset="<?php echo base_url(); ?>/assets/img/icons/letter-Y.png">
       </span>
 
-      <span class="letter o">
-         <svg preserveAspectRatio="xMidYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1320.7 376.6" style="enable-background:new 0 0 1320.7 376.6;" xml:space="preserve">
-
-            <path d="M1018.3,340c-31.8-35.1-47.7-82.1-47.7-141.2c0-59.7,15.8-107,47.4-141.7C1049.6,22.4,1092.2,5,1145.7,5s96,17.4,127.6,52.1
-            c31.6,34.7,47.4,82,47.4,141.7c0,59.4-15.8,106.5-47.4,141.5c-31.6,34.9-74.2,52.4-127.6,52.4C1092.5,392.6,1050.1,375.1,1018.3,340
-            z M1223.3,301.4c18.4-24.7,27.6-58.9,27.6-102.6c0-43.8-9.2-78-27.6-102.6c-18.4-24.7-44.3-37-77.6-37c-33,0-58.8,12.3-77.4,37
-            s-27.9,58.9-27.9,102.6c0,43.1,9.3,77.1,27.9,102.1s44.4,37.5,77.4,37.5C1179,338.4,1204.9,326.1,1223.3,301.4z" />
-         </svg>
-      </span>
-
-      <img class="preload" alt="A hand pointing up" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=500&q=65&auto=format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/05bb5c2c-5922-4fc4-991d-5b1ec4d72db1_hand-one.png?w=350&q=65&auto=format">
+      <img class="preload" alt="A hand pointing up" data-preload-desktop="<?php echo base_url(); ?>/assets/img/icons/back-to-top-btn.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/icons/back-to-top-btn.png">
    </button>
 </footer>
 <div class="color-backdrops">
