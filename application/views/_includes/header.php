@@ -106,7 +106,7 @@ $base_url = base_url();
 
                   <div class="contact">
                      <div class="handle banner-button">
-                        <span class="peace">&#9774;a</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span>
+                        <span class="peace">&#9774;</span> <span><?= COMPANY_ADDRESS ?></span> <span class="peace">&#9774;</span>
                      </div>
 
                      <a href="mailto:<?= COMPANY_EMAIL ?>" class="email banner-button">
