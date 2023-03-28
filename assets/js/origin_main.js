@@ -37917,6 +37917,7 @@
 						(this.domEmojiTriggers = Array.prototype.slice.call(
 							document.querySelectorAll(".mode-triggers .trigger")
 						)),
+						(this.domLogo = document.querySelector(".logo")),
 						(this.emojiDrawerOpen = !1),
 						(this.tieDie = document.querySelector(".third-media")),
 						(this.emojis = {}),
@@ -37936,7 +37937,6 @@
 							email: document.querySelector(".domgl-email"),
 							lollipop: document.querySelector(".domgl-lollipop"),
 							heart: document.querySelector(".domgl-heart"),
-							logo: document.querySelector(".domgl-logo"),
 						}),
 						this.init(),
 						this._addEvents(),
@@ -37993,6 +37993,14 @@
 										}
 									});
 								}),
+									this.domLogo.addEventListener("click", function () {
+										"home" === _.namespace &&
+											er.to(document.documentElement, {
+												scrollTop: 0,
+												duration: 0.8,
+												ease: "expo.inOut",
+											});
+									}),
 									_.isMobile ||
 										(this.domEmojis[1].addEventListener(
 											"mouseenter",
@@ -38005,7 +38013,69 @@
 											function () {
 												t.hideOtherEmojis();
 											}
-										));
+										)),
+									_.isMobile ||
+										(this.domLogo.addEventListener("mousedown", function () {
+											er.to(t.sphere.position, {
+												z: -120,
+												duration: 0.5,
+												ease: "expo.out",
+												onUpdate: function () {
+													S.renderer.render(S.scene, S.camera);
+												},
+											});
+										}),
+										this.domLogo.addEventListener("mouseup", function () {
+											er.to(t.sphere.position, {
+												z: -100,
+												duration: 1,
+												ease: "expo.out",
+												onUpdate: function () {
+													S.renderer.render(S.scene, S.camera);
+												},
+											});
+										}),
+										this.hitboxBounds.forEach(function (e, n) {
+											var i;
+											e.el.addEventListener("mouseenter", function () {
+												(i = 0 === n ? t.emojis.email : t.emojiList[n - 1]),
+													(e.prevX = i.scene.rotation.x),
+													(e.prevY = i.scene.rotation.y),
+													er.to(e, 0.5, {
+														lerpedEase: 0.1,
+														ease: "sine.inOut",
+													});
+											}),
+												e.el.addEventListener("mouseleave", function () {
+													er.set(e, { lerpedEase: 0.03 });
+												}),
+												e.el.addEventListener(
+													"mousemove",
+													function (r) {
+														i = 0 === n ? t.emojis.email : t.emojiList[n - 1];
+														var o = t.getValues(r, e, n);
+														(e.prevX = y(e.prevX, o.tiltX, e.lerpedEase)),
+															(e.prevY = y(e.prevY, o.tiltY, e.lerpedEase)),
+															er.set(i.scene.rotation, {
+																x: e.prevX,
+																y: e.prevY,
+															}),
+															S.renderer.render(S.scene, S.camera);
+													},
+													{ passive: !0 }
+												),
+												e.el.addEventListener("mouseleave", function () {
+													(i = 0 === n ? t.emojis.email : t.emojiList[n - 1]),
+														er.to(i.scene.rotation, 0.5, {
+															y: 0,
+															x: 0,
+															ease: "sine.inOut",
+															onUpdate: function () {
+																S.renderer.render(S.scene, S.camera);
+															},
+														});
+												});
+										}));
 							},
 						},
 						{
@@ -38027,10 +38097,7 @@
 									(this.emojis.email.origY = this.coords[0].y),
 									(this.emojis.email.hiddenY =
 										this.coords[2].y + this.bounds.headerHeight),
-									(this.emojis.logo.origY = this.coords[0].y),
-									(this.emojis.logo.hiddenY =
-										this.coords[2].y + this.bounds.headerHeight),
-									// this.sphere.position.set(0, this.coords[0].y, -100),
+									this.sphere.position.set(0, this.coords[0].y, -100),
 									this.emojis.email.scene.position.set(
 										this.coords[2].x,
 										this.coords[2].y,
@@ -38046,11 +38113,6 @@
 										this.coords[0].y,
 										-100
 									),
-									this.emojis.logo.scene.position.set(
-										this.coords[0].x,
-										this.coords[0].y,
-										-100
-									),
 									S.renderer.render(S.scene, S.camera),
 									this.hideOtherEmojis();
 							},
@@ -38062,8 +38124,7 @@
 									(this.bounds.height = _.windowHeight);
 								var t = this.dom.email.getBoundingClientRect(),
 									e = this.dom.lollipop.getBoundingClientRect(),
-									n = this.dom.heart.getBoundingClientRect(),
-									l = this.dom.logo.getBoundingClientRect();
+									n = this.dom.heart.getBoundingClientRect();
 								this.coords = [
 									{
 										type: "lollipop",
@@ -38079,11 +38140,6 @@
 										type: "email",
 										x: t.left + t.width / 2 - _.windowWidth / 2,
 										y: _.windowHeight / 2 - (t.top + t.height / 2),
-									},
-									{
-										type: "logo",
-										x: l.left + l.width / 2 - _.windowWidth / 2,
-										y: _.windowHeight / 2 - (l.top + l.height / 2),
 									},
 								];
 							},
@@ -38210,7 +38266,40 @@
 												t.modelsLoaded++;
 										}
 									);
-								this.modelsLoaded++;
+								var n = new zm(20, 20, 20),
+									i = new og({
+										color: new Eh(16777215),
+										emissive: new Eh(7829367),
+										roughness: 0,
+										metalness: 0,
+									});
+								(this.sphere = new xu(n, i)),
+									this.sphere.position.set(0, this.coords[0].y, -100),
+									S.scene.add(this.sphere),
+									(this.sphere.receiveShadow = !1),
+									(this.sphere.castShadow = !0);
+								var r = new Xu(_.isMobile ? 60 : 100, 100),
+									o = new ng();
+								(o.opacity = 0.7),
+									(this.plane = new xu(r, o)),
+									this.plane.position.set(0, this.coords[0].y, -120),
+									(this.plane.castShadow = !1),
+									(this.plane.receiveShadow = !0),
+									S.scene.add(this.plane),
+									(this.dummy = this.sphere.clone()),
+									this.dummy.position.set(0, this.coords[0].y, -100),
+									(this.dummy.visible = !1),
+									S.scene.add(this.dummy),
+									(this.directionalLight.target = this.dummy),
+									er.set(
+										[
+											this.sphere.position,
+											this.plane.position,
+											this.dummy.position,
+										],
+										{ y: this.coords[2].y + this.bounds.headerHeight }
+									),
+									this.modelsLoaded++;
 							},
 						},
 						{
@@ -38232,6 +38321,57 @@
 									(e.shadow.camera.bottom = -_.windowHeight / 2),
 									(this.directionalLight = e),
 									this.loadModels();
+								var n = document.querySelector(".logo-hitbox"),
+									i = n.getBoundingClientRect(),
+									r = {
+										el: n,
+										top: i.top,
+										left: i.left,
+										width: i.width,
+										height: i.height,
+										prevShiftX: 40,
+										prevShiftY: 0.5 * this.bounds.height,
+										lerpedEase: 0.03,
+									};
+								n.addEventListener("mouseenter", function (t) {
+									er.fromTo(
+										r,
+										0.5,
+										{ lerpedEase: 0.03 },
+										{ lerpedEase: 0.12, ease: "sine.inOut" }
+									);
+								}),
+									n.addEventListener(
+										"mousemove",
+										function (n) {
+											var i = t.get2DValues(n, r);
+											(r.prevShiftX = y(r.prevShiftX, i.shiftX, r.lerpedEase)),
+												(r.prevShiftY = y(
+													r.prevShiftY,
+													i.shiftY,
+													r.lerpedEase
+												)),
+												er.set(e.position, {
+													x: r.prevShiftX,
+													y: r.prevShiftY,
+												}),
+												S.renderer.render(S.scene, S.camera);
+										},
+										{ passive: !0 }
+									),
+									n.addEventListener("mouseleave", function () {
+										(r.prevShiftX = 40),
+											(r.prevShiftY = 0.5 * t.bounds.height),
+											er.set(r, { lerpedEase: 0.03 }),
+											er.to(e.position, 0.45, {
+												x: 40,
+												y: 0.5 * t.bounds.height,
+												ease: "sine.inOut",
+												onUpdate: function () {
+													S.renderer.render(S.scene, S.camera);
+												},
+											});
+									});
 							},
 						},
 						{
@@ -38323,14 +38463,15 @@
 								var t =
 									!(arguments.length > 0 && void 0 !== arguments[0]) ||
 									arguments[0];
-								er.to(this.emojis.logo.scene.position, 0.7, {
-									y: this.emojis.logo.hiddenY,
-									ease: "sine.inOut",
-								}),
-									er.to(this.emojis.logo.scene.rotation, 0.8, {
-										y: 6,
-										ease: "sine.inOut",
-									}),
+								er.to(
+									[
+										this.sphere.position,
+										this.plane.position,
+										this.dummy.position,
+									],
+									0.7,
+									{ y: this.emojis.lollipop.hiddenY, ease: "sine.inOut" }
+								),
 									t && this.renderCycle(0.8);
 							},
 						},
@@ -38391,15 +38532,16 @@
 								var t =
 									!(arguments.length > 0 && void 0 !== arguments[0]) ||
 									arguments[0];
-								er.to(this.emojis.logo.scene.position, 0.7, {
-									y: this.emojis.logo.origY,
-									ease: "sine.inOut",
-								}),
-									er.to(this.emojis.logo.scene.rotation, 0.8, {
-										y: 0,
-										ease: "sine.inOut",
-									}),
-									t && this.renderCycle(0.8);
+								er.to(
+									[
+										this.sphere.position,
+										this.plane.position,
+										this.dummy.position,
+									],
+									0.7,
+									{ y: this.coords[0].y, ease: "sine.inOut" }
+								),
+									t && this.renderCycle(0.7);
 							},
 						},
 						{
