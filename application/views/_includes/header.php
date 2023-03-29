@@ -51,10 +51,8 @@ $base_url = base_url();
                <div class="domgl-email"></div>
             </div>
 
-            <a class="logo nav-emoji" href="<?= base_url() ?>" title="Home">
-               <!-- <span class="logo-hitbox hitbox"></span> -->
-               <span class="hitbox"></span>
-               <span class="domgl-logo"></span>
+            <a class="logo" href="<?= base_url() ?>" title="Home">
+               <span class="logo-hitbox"></span>
                <span class="visuallyhidden">Back to the home page</span>
             </a>
 
