@@ -38124,7 +38124,9 @@
 									(this.bounds.height = _.windowHeight);
 								var t = this.dom.email.getBoundingClientRect(),
 									e = this.dom.lollipop.getBoundingClientRect(),
-									n = this.dom.heart.getBoundingClientRect();
+									n = this.dom.heart.getBoundingClientRect(),
+									l = this.domLogo.getBoundingClientRect();
+
 								this.coords = [
 									{
 										type: "lollipop",
@@ -38140,6 +38142,11 @@
 										type: "email",
 										x: t.left + t.width / 2 - _.windowWidth / 2,
 										y: _.windowHeight / 2 - (t.top + t.height / 2),
+									},
+									{
+										type: "logo",
+										x: l.left + l.width / 2 - _.windowWidth / 2,
+										y: _.windowHeight / 2 - (l.top + l.height / 2),
 									},
 								];
 							},
@@ -38190,6 +38197,34 @@
 													y: t.emojis.email.hiddenY,
 												}),
 												er.set(t.emojis.email.scene.rotation, { y: 6 }),
+												t.modelsLoaded++;
+										}
+									),
+									this.gltfLoader.load(
+										`${domain_url}assets/emoji/logo.glb`,
+										function (e) {
+											e.scene.scale.set(2, 1, 3),
+												e.scene.position.set(
+													t.coords[3].x,
+													t.coords[3].y,
+													-100
+												);
+											var n = e.scene.children[0].material;
+											n.color.setRGB(1, 0.8, 0),
+												(n.roughness = 0.45),
+												(n.metalness = 0.12),
+												(n.emissiveIntensity = 1),
+												(n.needsUpdate = !0),
+												(t.emojis.logo = {
+													origY: e.scene.position.y,
+													hiddenY: t.coords[2].y + t.bounds.headerHeight,
+													scene: e.scene,
+												}),
+												S.scene.add(e.scene),
+												er.set(t.emojis.logo.scene.position, {
+													y: t.emojis.logo.hiddenY,
+												}),
+												er.set(t.emojis.logo.scene.rotation, { x: 1, y: 6 }),
 												t.modelsLoaded++;
 										}
 									);
@@ -38266,40 +38301,40 @@
 												t.modelsLoaded++;
 										}
 									);
-								var n = new zm(20, 20, 20),
-									i = new og({
-										color: new Eh(16777215),
-										emissive: new Eh(7829367),
-										roughness: 0,
-										metalness: 0,
-									});
-								(this.sphere = new xu(n, i)),
-									this.sphere.position.set(0, this.coords[0].y, -100),
-									S.scene.add(this.sphere),
-									(this.sphere.receiveShadow = !1),
-									(this.sphere.castShadow = !0);
-								var r = new Xu(_.isMobile ? 60 : 100, 100),
-									o = new ng();
-								(o.opacity = 0.7),
-									(this.plane = new xu(r, o)),
-									this.plane.position.set(0, this.coords[0].y, -120),
-									(this.plane.castShadow = !1),
-									(this.plane.receiveShadow = !0),
-									S.scene.add(this.plane),
-									(this.dummy = this.sphere.clone()),
-									this.dummy.position.set(0, this.coords[0].y, -100),
-									(this.dummy.visible = !1),
-									S.scene.add(this.dummy),
-									(this.directionalLight.target = this.dummy),
-									er.set(
-										[
-											this.sphere.position,
-											this.plane.position,
-											this.dummy.position,
-										],
-										{ y: this.coords[2].y + this.bounds.headerHeight }
-									),
-									this.modelsLoaded++;
+								// var n = new zm(20, 20, 20),
+								// 	i = new og({
+								// 		color: new Eh(16777215),
+								// 		emissive: new Eh(7829367),
+								// 		roughness: 0,
+								// 		metalness: 0,
+								// 	});
+								// (this.sphere = new xu(n, i)),
+								// 	this.sphere.position.set(0, this.coords[0].y, -100),
+								// 	S.scene.add(this.sphere),
+								// 	(this.sphere.receiveShadow = !1),
+								// 	(this.sphere.castShadow = !0);
+								// var r = new Xu(_.isMobile ? 60 : 100, 100),
+								// 	o = new ng();
+								// (o.opacity = 0.7),
+								// 	(this.plane = new xu(r, o)),
+								// 	this.plane.position.set(0, this.coords[0].y, -120),
+								// 	(this.plane.castShadow = !1),
+								// 	(this.plane.receiveShadow = !0),
+								// 	S.scene.add(this.plane),
+								// 	(this.dummy = this.sphere.clone()),
+								// 	this.dummy.position.set(0, this.coords[0].y, -100),
+								// 	(this.dummy.visible = !1),
+								// 	S.scene.add(this.dummy),
+								// 	(this.directionalLight.target = this.dummy),
+								// 	er.set(
+								// 		[
+								// 			this.sphere.position,
+								// 			this.plane.position,
+								// 			this.dummy.position,
+								// 		],
+								// 		{ y: this.coords[2].y + this.bounds.headerHeight }
+								// 	),
+								// 	this.modelsLoaded++;
 							},
 						},
 						{
@@ -38460,18 +38495,30 @@
 						{
 							key: "hideLogo",
 							value: function () {
+								// var t =
+								// 	!(arguments.length > 0 && void 0 !== arguments[0]) ||
+								// 	arguments[0];
+								// er.to(
+								// 	[
+								// 		this.sphere.position,
+								// 		this.plane.position,
+								// 		this.dummy.position,
+								// 	],
+								// 	0.7,
+								// 	{ y: this.emojis.lollipop.hiddenY, ease: "sine.inOut" }
+								// ),
+								// 	t && this.renderCycle(0.8);
 								var t =
 									!(arguments.length > 0 && void 0 !== arguments[0]) ||
 									arguments[0];
-								er.to(
-									[
-										this.sphere.position,
-										this.plane.position,
-										this.dummy.position,
-									],
-									0.7,
-									{ y: this.emojis.lollipop.hiddenY, ease: "sine.inOut" }
-								),
+								er.to(this.emojis.logo.scene.position, 0.7, {
+									y: this.emojis.logo.hiddenY,
+									ease: "sine.inOut",
+								}),
+									er.to(this.emojis.logo.scene.rotation, 0.8, {
+										y: 6,
+										ease: "sine.inOut",
+									}),
 									t && this.renderCycle(0.8);
 							},
 						},
@@ -38532,16 +38579,28 @@
 								var t =
 									!(arguments.length > 0 && void 0 !== arguments[0]) ||
 									arguments[0];
-								er.to(
-									[
-										this.sphere.position,
-										this.plane.position,
-										this.dummy.position,
-									],
-									0.7,
-									{ y: this.coords[0].y, ease: "sine.inOut" }
-								),
-									t && this.renderCycle(0.7);
+								er.to(this.emojis.logo.scene.position, 0.7, {
+									y: this.emojis.logo.origY,
+									ease: "sine.inOut",
+								}),
+									er.to(this.emojis.logo.scene.rotation, 0.8, {
+										y: 0,
+										ease: "sine.inOut",
+									}),
+									t && this.renderCycle(0.8);
+								// var t =
+								// 	!(arguments.length > 0 && void 0 !== arguments[0]) ||
+								// 	arguments[0];
+								// er.to(
+								// 	[
+								// 		this.sphere.position,
+								// 		this.plane.position,
+								// 		this.dummy.position,
+								// 	],
+								// 	0.7,
+								// 	{ y: this.coords[0].y, ease: "sine.inOut" }
+								// ),
+								// 	t && this.renderCycle(0.7);
 							},
 						},
 						{
