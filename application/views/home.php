@@ -36,7 +36,7 @@ $base_url = base_url();
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Aperio Beauty</h1>
@@ -46,7 +46,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/box-union/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box_union.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box_union.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Box Union</h1>
@@ -66,7 +66,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within center" data-out="fade">
 					<a href="<?= base_url() ?>/work/hugga-feel/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga_clarity_revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Hugga</h1>
@@ -76,7 +76,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/rta-brand/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/RtaDenim_Clarity_Revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/RtaDenim_Clarity_Revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>RtA Denim</h1>
@@ -86,7 +86,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/gigi-c-bikinis/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/gigicbikinis_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/gigicbikinis_clarity_revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/gigi-c-bikinis/Gigi-C-Bikini-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/gigi-c-bikinis/Gigi-C-Bikini-1.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Gigi C Bikinis</h1>
@@ -96,7 +96,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/jonathan-simkhai/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/jonathan_simkhai_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/jonathan_simkhai_clarity_revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Jonathan Simkhai</h1>
@@ -116,7 +116,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/in-the-groove/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/getinthegroove_Clarity_Revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/getinthegroove_Clarity_Revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>In the Groove</h1>
@@ -136,7 +136,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/staud/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Staud.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Staud.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>STAUD</h1>
@@ -146,7 +146,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/houseplant/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Houseplant</h1>
@@ -156,7 +156,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/cubed-labs/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Cubed Labs</h1>
@@ -166,7 +166,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/alwrld/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.png" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>ALWRLD</h1>

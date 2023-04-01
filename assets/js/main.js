@@ -38097,7 +38097,6 @@
 									(this.emojis.email.origY = this.coords[0].y),
 									(this.emojis.email.hiddenY =
 										this.coords[2].y + this.bounds.headerHeight),
-									this.sphere.position.set(0, this.coords[0].y, -100),
 									this.emojis.email.scene.position.set(
 										this.coords[2].x,
 										this.coords[2].y,

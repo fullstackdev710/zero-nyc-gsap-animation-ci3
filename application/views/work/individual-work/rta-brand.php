@@ -3,7 +3,7 @@
    <div class="view-work-type" data-router-view="work-type" data-transition-in="default">
       <section>
          <div class="hero" data-out="fade">
-            <img class="bg miq" alt="" src="<?php echo base_url(); ?>/assets/img/RtaDenim_Clarity_Revyrie.jpg" style="opacity: 1;">
+            <img class="bg miq" alt="" src="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.png" style="opacity: 1;">
          </div>
 
          <div class="work-intro c-120" data-out="fade" data-entrance="basic-fade" data-offset=".65" data-offset-mobile=".85" style="opacity: 1;">
@@ -21,13 +21,13 @@
 
          <div class="full-bleed c-60 media-within">
             <div class="image-wrapper" style="--dar: 62.5%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.jpg" alt="">
+               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.png" alt="">
             </div>
          </div>
 
          <div class="full-bleed c-60 media-within">
             <div class="image-wrapper" style="--dar: 52.7778%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-2.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-2.jpg" alt="">
+               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-2.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-2.png" alt="">
             </div>
          </div>
 
@@ -39,7 +39,7 @@
 
          <div class="full-bleed c-60 media-within">
             <div class="image-wrapper" style="--dar: 87.2222%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-4.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-4.jpg" alt="">
+               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-4.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-4.png" alt="">
             </div>
          </div>
 
