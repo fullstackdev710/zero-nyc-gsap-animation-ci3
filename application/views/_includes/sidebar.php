@@ -50,7 +50,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/aperio-beauty/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.png" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.webp" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -154,7 +154,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/lokai-elements/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.png" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.webp" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -180,7 +180,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/houseplant/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.png" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.webp" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -193,7 +193,7 @@ $base_url = base_url();
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/cubed-labs/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -206,7 +206,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/alwrld/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.png" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
                   </div>
 
                   <div class="context s-el">

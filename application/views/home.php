@@ -36,7 +36,7 @@ $base_url = base_url();
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.png" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Aperio Beauty</h1>
@@ -126,7 +126,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/lokai-elements/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.png" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Lokai & Elements</h1>
@@ -146,7 +146,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/houseplant/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.png" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Houseplant</h1>
@@ -156,7 +156,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/cubed-labs/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.png" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Cubed Labs</h1>
@@ -166,7 +166,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/alwrld/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.png" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.png" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>ALWRLD</h1>
