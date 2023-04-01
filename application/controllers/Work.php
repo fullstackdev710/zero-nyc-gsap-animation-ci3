@@ -27,8 +27,8 @@ class Work extends CI_Controller
       ];
 
       $scripts = [
-         'assets/js/pages/home/home-script.js?ver=' . time(),
-         'assets/js/pages/home/count-down-script.js?ver=' . time(),
+         // 'assets/js/pages/home/home-script.js?ver=' . time(),
+         // 'assets/js/pages/home/count-down-script.js?ver=' . time(),
       ];
 
       $this->load->view('_includes/header', ['styles' => $styles]);

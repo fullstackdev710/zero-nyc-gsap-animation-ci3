@@ -21,7 +21,7 @@
 
          <div class="full-bleed c-60 media-within">
             <div class="image-wrapper" style="--dar: 62.5%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp.jpg" alt="">
+               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" alt="">
             </div>
          </div>
 
