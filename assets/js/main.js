@@ -38202,7 +38202,7 @@
 									this.gltfLoader.load(
 										`${domain_url}assets/emoji/logo.glb`,
 										function (e) {
-											e.scene.scale.set(2, 1, 3),
+											e.scene.scale.set(30, 10, 30),
 												e.scene.position.set(
 													t.coords[3].x,
 													t.coords[3].y,
