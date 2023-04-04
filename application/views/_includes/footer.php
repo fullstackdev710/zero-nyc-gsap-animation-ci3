@@ -60,7 +60,7 @@ $base_url = base_url();
    </button>
 </div>
 
-<img id="about-hand" class="about-hand preload" alt="hand" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=1680&q=45&auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/773b6d65-714f-4176-a030-c6f513d221be_hand-two.png?w=450&q=45&auto=compress,format">
+<div id="about-hand" style="display: none;"></div>
 
 <div class="ballin-wrapper state-0" tabindex="-1">
    <div class="bg" style="background-color: #ffab00;"></div>

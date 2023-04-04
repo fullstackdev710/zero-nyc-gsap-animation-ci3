@@ -299,14 +299,14 @@ $base_url = base_url();
                      <h4>SOLUTION INTEGRATIONS:</h4>
                      <div class="wysiwyg">
                         <ul>
-                           <li>3PLs - Shiphero, Whiplash, etc.</li>
-                           <li>ERP - Aims360, Apparel Magic, Circle</li>
-                           <li>CRM - Salesforce, DebtPayPro, Zoho</li>
-                           <li>Cloud/Server - AWS, Azure</li>
-                           <li>WordPress - Custom and Vanilla</li>
-                           <li>Payments - Stripe, Authorize.net, Paypal Email Management & Flow</li>
-                           <li>Handling - Klaviyo, Bluecore, Mailchimp</li>
-                           <li>Customer Support Systems - Intercom, Gorgias, Zendesk, Zoho</li>
+                           <li><span style="text-decoration: underline;">3PLs</span> - Shiphero, Whiplash, etc.</li>
+                           <li><span style="text-decoration: underline;">ERP</span> - Aims360, Apparel Magic, Circle</li>
+                           <li><span style="text-decoration: underline;">CRM</span> - Salesforce, DebtPayPro, Zoho</li>
+                           <li><span style="text-decoration: underline;">Cloud/Server</span> - AWS, Azure</li>
+                           <li><span style="text-decoration: underline;">WordPress</span> - Custom and Vanilla</li>
+                           <li><span style="text-decoration: underline;">Payments</span> - Stripe, Authorize.net, Paypal Email Management & Flow</li>
+                           <li><span style="text-decoration: underline;">Handling</span> - Klaviyo, Bluecore, Mailchimp</li>
+                           <li><span style="text-decoration: underline;">Customer Support Systems</span> - Intercom, Gorgias, Zendesk, Zoho</li>
                         </ul>
                      </div>
                   </div>

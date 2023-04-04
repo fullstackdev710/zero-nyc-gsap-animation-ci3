@@ -3569,17 +3569,6 @@ video.manual {
 		font-size: 14px;
 	}
 }
-.about-hand {
-	position: fixed;
-	right: 0;
-	top: 0;
-	object-fit: contain;
-	width: 75.4%;
-	z-index: 1002;
-	transform-origin: 100% 50%;
-	pointer-events: none;
-	opacity: 0;
-}
 .view-about-us .top {
 	padding-top: 155px;
 	height: calc(var(--vh, 1vh) * 91);
