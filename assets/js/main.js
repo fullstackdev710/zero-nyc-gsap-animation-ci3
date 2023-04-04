@@ -38202,7 +38202,7 @@
 									this.gltfLoader.load(
 										`${domain_url}assets/emoji/logo.glb`,
 										function (e) {
-											e.scene.scale.set(30, 10, 30),
+											e.scene.scale.set(25, 7, 25),
 												e.scene.position.set(
 													t.coords[3].x,
 													t.coords[3].y,
@@ -38210,8 +38210,8 @@
 												);
 											var n = e.scene.children[0].material;
 											n.color.setRGB(1, 0.8, 0),
-												(n.roughness = 0.45),
-												(n.metalness = 0.12),
+												(n.roughness = 0.5),
+												(n.metalness = 0.002),
 												(n.emissiveIntensity = 1),
 												(n.needsUpdate = !0),
 												(t.emojis.logo = {

@@ -4962,3 +4962,10 @@ video.manual {
 		width: 100%;
 	}
 }
+
+html[style*="--primary:#000000;"] .white-icon {
+	filter: invert(1);
+}
+html[style*="--primary:#000000;"] .letter img {
+	filter: invert(1);
+}

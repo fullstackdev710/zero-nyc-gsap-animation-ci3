@@ -16,23 +16,22 @@ $base_url = base_url();
 				<div class="scroll-indicator"></div>
 			</div>
 
-			<div class="full-bleed c-60 media-within">
-				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 0px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222.webp" alt="">
-				</div>
-			</div>
-			<div class="full-bleed c-60 media-within">
-				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 0px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/222222.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/222222.webp" alt="">
-				</div>
-			</div>
-			<div class="full-bleed c-60 media-within">
-				<div class="image-wrapper" style="--dar: 62.5%; transform: translate(0px, 0px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-					<img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/333333333.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/333333333.webp" alt="">
-				</div>
-			</div>
-
 			<div class="featured-work work-grid c-60">
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/featured-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/featured-1.webp" alt="">
+					</a>
+				</article>
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/featured-2.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/featured-2.webp" alt="">
+					</a>
+				</article>
+				<article class="work-tile fw media-within bottom" data-out="fade">
+					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/featured-3.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/featured-3.webp" alt="">
+					</a>
+				</article>
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">

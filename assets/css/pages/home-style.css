@@ -2,9 +2,6 @@
 	background-image: url(../../img/slide1.jpg);
 	background-size: cover;
 }
-html[style*="--primary:#000000;"] .white-icon {
-	filter: invert(1);
-}
 .lets-chat-div {
 	background-image: url(../../img/cta.jpg);
 	padding: 50px;
