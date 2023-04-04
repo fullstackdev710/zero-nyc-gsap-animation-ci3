@@ -5384,7 +5384,7 @@
 										0.5
 									);
 							break;
-						case "about-us":
+						case "about":
 							var E = M.viewEl.querySelector(".top p"),
 								A = document.querySelector(".full-width-img");
 							(E.innerHTML = E.innerHTML.replace("-", "<span>-</span>")),
@@ -5538,16 +5538,16 @@
 												Cx.showHeader());
 										}, 20);
 									},
-									"about-us" === _.namespace ? "-=3.33" : "-=3.65"
+									"about" === _.namespace ? "-=3.33" : "-=3.65"
 							  ),
-							  "about-us" === _.namespace &&
+							  "about" === _.namespace &&
 									(_.fromAboutDrawer || Dx.aboutPageEntrance(),
 									(_.fromAboutDrawer = !1)),
 							  er.delayedCall(0.46, function () {
 									n.play();
 							  }),
 							  (_.firstLoad = !1))
-							: ("about-us" === _.namespace &&
+							: ("about" === _.namespace &&
 									(_.fromAboutDrawer || Dx.aboutPageEntrance(),
 									(_.fromAboutDrawer = !1)),
 							  n.play());
@@ -7815,7 +7815,7 @@
 						{
 							key: "getBBallTrigger",
 							value: function () {
-								if ("about-us" === _.namespace) {
+								if ("about" === _.namespace) {
 									var t = document
 										.querySelector(".quick-contact")
 										.getBoundingClientRect();
@@ -8488,7 +8488,7 @@
 							(this.pageLinks = e.querySelectorAll(
 								'[href="/'
 									.concat(n, '/"], [href*="/')
-									.concat(n, '/?"], [href="/about-us/"]')
+									.concat(n, '/?"], [href="/about/"]')
 							)),
 							(this.isOpen = !1),
 							(this.direction = "work" === n ? -1 : 1),
@@ -8580,8 +8580,8 @@
 							key: "checkLinkOnClick",
 							value: function (t) {
 								t &&
-									("/about-us/" === t &&
-										"about-us" !== _.namespace &&
+									("/about/" === t &&
+										"about" !== _.namespace &&
 										(_.fromAboutDrawer = !0),
 									t === "/".concat(_.namespace, "/") && this.close(!0));
 							},
@@ -38015,26 +38015,8 @@
 											}
 										)),
 									_.isMobile ||
-										(this.domLogo.addEventListener("mousedown", function () {
-											er.to(t.sphere.position, {
-												z: -120,
-												duration: 0.5,
-												ease: "expo.out",
-												onUpdate: function () {
-													S.renderer.render(S.scene, S.camera);
-												},
-											});
-										}),
-										this.domLogo.addEventListener("mouseup", function () {
-											er.to(t.sphere.position, {
-												z: -100,
-												duration: 1,
-												ease: "expo.out",
-												onUpdate: function () {
-													S.renderer.render(S.scene, S.camera);
-												},
-											});
-										}),
+										(this.domLogo.addEventListener("mousedown", function () {}),
+										this.domLogo.addEventListener("mouseup", function () {}),
 										this.hitboxBounds.forEach(function (e, n) {
 											var i;
 											e.el.addEventListener("mouseenter", function () {
@@ -43833,7 +43815,7 @@
 					home: Qx,
 					work: eb,
 					"work-type": rb,
-					"about-us": lb,
+					about: lb,
 					"not-found": Q_,
 				},
 				transitions: { default: bb, contextual: {} },
@@ -43880,7 +43862,7 @@
 							var e = M.viewEl.dataset.routerView,
 								n = 0.01 * _.windowHeight;
 							switch (
-								("about-us" === e &&
+								("about" === e &&
 									(M.aboutHand.classList.remove("preload"),
 									M.aboutHand.classList.add("preload-critical")),
 								(_.queryParams = b()),
@@ -43923,26 +43905,26 @@
 									)
 										r.push(i[o].href);
 									r.push("/work/"),
-										r.push("/about-us/"),
+										r.push("/abouts/"),
 										r.push("/contact/"),
 										r.push("/careers/"),
 										ss(r);
 									break;
 								case "work":
-									ss(["/", "/about-us/", /contact/, /careers/]);
+									ss(["/", "/about/", /contact/, /careers/]);
 									break;
 								case "work-type":
-									ss(["/", "/about-us/", /contact/, /careers/, "/work/"]);
+									ss(["/", "/about/", /contact/, /careers/, "/work/"]);
 									break;
-								case "about-us":
+								case "about":
 									ss(["/", /contact/, /careers/, "/work/"]);
 									break;
 								case "contact":
-									ss(["/", /about-us/, /careers/, "/work/"]);
+									ss(["/", /about/, /careers/, "/work/"]);
 									break;
 								case "careers":
 								case "careers-type":
-									ss(["/", /contact/, /about-us/, "/work/"]);
+									ss(["/", /contact/, /about/, "/work/"]);
 							}
 							_.isMobile ||
 								(M.footer.addEventListener("mouseenter", function () {

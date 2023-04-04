@@ -3,6 +3,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Contact extends CI_Controller
 {
+   public function __construct()
+   {
+      parent::__construct();
+      $this->load->library('user_agent');
+   }
+
    public function index()
    {
       $styles = [

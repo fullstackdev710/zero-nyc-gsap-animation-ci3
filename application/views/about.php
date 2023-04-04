@@ -188,7 +188,6 @@
 
       <div class="thumbnail-wrapper media-within" style="display: none;">
          <div class="project-wrapper">
-            <img class="first" data-uid="banded-brewing-co" alt="" src="blob:https://zero.nyc/284d52bc-03e2-4120-8855-0e9439b48129">
          </div>
       </div>
 

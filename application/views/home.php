@@ -18,7 +18,7 @@ $base_url = base_url();
 
 			<div class="featured-work work-grid c-60">
 				<article class="work-tile fw media-within bottom" data-out="fade">
-					<a href="<?= base_url() ?>/work/aperio-beauty/" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+					<a href="<?= base_url() ?>/work/aperio-beauty/">
 						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/featured-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/featured-1.webp" alt="">
 					</a>
 				</article>

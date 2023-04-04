@@ -4958,3 +4958,56 @@ html[style*="--primary:#000000;"] .white-icon {
 html[style*="--primary:#000000;"] .letter img {
 	filter: invert(1);
 }
+/* Contact Page Style Start */
+.contact-form {
+	max-width: 80%;
+	margin: auto;
+}
+.contact-form input,
+.contact-form textarea {
+	padding: 10px;
+	width: 100%;
+}
+.d-flex {
+	display: flex;
+}
+.w-50 {
+	width: 50% !important;
+}
+.w-100 {
+	width: 100% !important;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+@media screen and (min-width: 480px) {
+	.d-w-100 {
+		background-color: lightgreen;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.m-w-100 {
+		width: 100% !important;
+	}
+}
+/* Contact Page Style End */
+
+/* Home Page Style Start */
+.hero {
+	background-image: url(../img/slide1.jpg);
+	background-size: cover;
+}
+.lets-chat-div {
+	background-image: url(../img/cta.jpg);
+	padding: 50px;
+	margin: auto;
+	max-width: 1140px;
+	background-size: cover;
+}
+article.work-tile div.copy.color-override {
+	background-color: #ffcc00;
+	opacity: 0.75 !important;
+	padding: 20px;
+}
+/* Home Page Style End */
