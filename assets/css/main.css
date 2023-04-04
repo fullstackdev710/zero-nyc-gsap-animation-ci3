@@ -4994,7 +4994,7 @@ html[style*="--primary:#000000;"] .letter img {
 /* Contact Page Style End */
 
 /* Home Page Style Start */
-.hero {
+.view-home .hero {
 	background-image: url(../img/slide1.jpg);
 	background-size: cover;
 }

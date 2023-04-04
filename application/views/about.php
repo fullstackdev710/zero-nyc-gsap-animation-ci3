@@ -115,7 +115,7 @@
                   <img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
                </div>
                <h3>
-                  <a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">40+</a>
+                  <a href="<?= base_url() ?>work/" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">40+</a>
                </h3>
                <p>Companies Built</p>
             </div>
@@ -124,7 +124,7 @@
                   <img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
                </div>
                <h3>
-                  <a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">6+</a>
+                  <a href="<?= base_url() ?>work/" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">6+</a>
                </h3>
                <p>Portfolio Exits</p>
             </div>
@@ -133,7 +133,7 @@
                   <img class="bg" alt="" src="<?= base_url() ?>assets/img/icons/white/digital-marketing-service.png">
                </div>
                <h3>
-                  <a href="javascript:void(0);" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">130+</a>
+                  <a href="<?= base_url() ?>work/" class="modal-trigger" data-modal="mark-goldwell" aria-label="Read Bio">130+</a>
                </h3>
                <p>In House Developers</p>
             </div>
@@ -165,7 +165,7 @@
          <div class="office-snapshots media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
             <a href="https://revyrie.com/" class="office parallax-hover s-el" data-out="fade">
                <div class="ar-wrapper" style="--dar: 117.5%; --mar: 117.5%;">
-                  <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>assets/img/Clarity_Logo_Site.jpg" alt="">
+                  <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>assets/img/Revyrie_logo.png" alt="">
                </div>
                <address class="address move-el">
                   <h1 class="modal-trigger">
