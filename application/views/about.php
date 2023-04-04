@@ -83,9 +83,9 @@
          <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
             <div class="text s-el" style="opacity: 1;">
                <div class="inner" data-out="fade">
-                  <p>HOW WE WORK</p>
-                  <h4>How Do We Create<br />Better Products.</h4>
-                  <ul>
+                  <p style="text-decoration: underline;">HOW WE WORK</p>
+                  <h4 style="font-weight: bold;">How Do We Create<br />Better Products.</h4>
+                  <ul style="font-family: GTAmerica-Regular;">
                      <li>Exceptional technical capabilities at highly competitive rates</li>
                      <li>Dedicated management to ensure tech is aligned with business needs</li>
                      <li>Augmentation of in-house teams for deeper &amp; complex customizations</li>

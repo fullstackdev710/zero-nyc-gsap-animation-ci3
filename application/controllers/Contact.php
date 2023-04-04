@@ -6,17 +6,16 @@ class Contact extends CI_Controller
    public function __construct()
    {
       parent::__construct();
-      $this->load->library('user_agent');
    }
 
    public function index()
    {
       $styles = [
-         'assets/css/pages/contact-style.css?ver=' . time(),
+         // 'assets/css/pages/contact-style.css?ver=' . time(),
       ];
 
       $scripts = [
-         // 'assets/js/pages/home/home-script.js?ver=' . time(),
+         'assets/js/g-custom-script.js?ver=' . time(),
          // 'assets/js/pages/home/count-down-script.js?ver=' . time(),
       ];
 

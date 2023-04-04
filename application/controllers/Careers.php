@@ -6,12 +6,12 @@ class Careers extends CI_Controller
    public function index()
    {
       $styles = [
-         'assets/css/pages/home-style.css?ver=' . time(),
+         // 'assets/css/pages/home-style.css?ver=' . time(),
       ];
 
       $scripts = [
-         'assets/js/pages/home/home-script.js?ver=' . time(),
-         'assets/js/pages/home/count-down-script.js?ver=' . time(),
+         'assets/js/g-custom-script.js?ver=' . time(),
+         // 'assets/js/pages/home/count-down-script.js?ver=' . time(),
       ];
 
       $this->load->view('_includes/header', ['styles' => $styles]);

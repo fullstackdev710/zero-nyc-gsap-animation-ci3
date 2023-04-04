@@ -258,14 +258,7 @@ $base_url = base_url();
    ga("create", "UA-90780876-1", "auto");
    ga("send", "pageview");
 </script>
-<!-- Deferred CSS -->
-<script type="text/javascript">
-   var stylesheet = document.createElement("link");
-   stylesheet.href = "<?php echo base_url(); ?>/assets/css/main.css?ver=<?php echo time(); ?>"
-   stylesheet.rel = "stylesheet";
-   stylesheet.type = "text/css";
-   document.getElementsByTagName("head")[0].appendChild(stylesheet);
-</script>
+
 <script type="text/javascript" src="<?php echo base_url(); ?>/assets/js/main.js?ver=<?php echo time(); ?>" defer></script>
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
