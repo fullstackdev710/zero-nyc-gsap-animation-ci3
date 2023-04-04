@@ -6,7 +6,6 @@ $base_url = base_url();
 
 
 <footer id="footer" class="media-within">
-   <h1>CLARITY</h1>
    <button class="back-to-top" data-out="footer" data-entrance="footer" data-offset=".85" data-offset-mobile=".9" aria-label="CLARITY Return to top of page">
 
       <span class="letter c">
