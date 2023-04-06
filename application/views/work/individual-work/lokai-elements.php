@@ -26,12 +26,6 @@
          </div>
 
          <div class="full-bleed c-60 media-within">
-            <div class="image-wrapper" style="--dar: 52.7778%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
-               <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/lokai/Lokai-2.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/lokai/Lokai-2.webp" alt="">
-            </div>
-         </div>
-
-         <div class="full-bleed c-60 media-within">
             <div class="image-wrapper" style="--dar: 87.2222%; opacity: 0; transform: translate(0px, 20px);" data-out="fade" data-entrance="basic-fade" data-offset=".86" data-offset-mobile=".85">
                <img class="bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/lokai/Lokai-3.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/lokai/Lokai-3.webp" alt="">
             </div>

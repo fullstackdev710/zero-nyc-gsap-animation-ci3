@@ -1649,7 +1649,7 @@ video.manual {
 	transform-origin: 50% 0;
 }
 .about-callout {
-	padding-top: 11.11111vw;
+	padding-top: 5vw;
 }
 @media screen and (max-width: 720px) {
 	.about-callout {
@@ -3641,8 +3641,8 @@ video.manual {
 	}
 }
 .view-about-us .partners {
-	padding-top: 8.33333vw;
-	padding-bottom: 8.33333vw;
+	padding-top: 3.5vw;
+	padding-bottom: 3.5vw;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: justify;

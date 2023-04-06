@@ -19,16 +19,16 @@ $base_url = base_url();
          </div>
          <ul class="categories">
             <li>
-               <a href="<?= base_url() ?>work/">see all</a>
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/'">see all</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work/?filter=consumer">Consumer</a>
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/?filter=consumer'">Consumer</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work?filter=e-commerce">E Commerce</a>
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/?filter=e-commerce'">E Commerce</a>
             </li>
             <li>
-               <a href="<?= base_url() ?>work?filter=web">Web</a>
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/?filter=web'">Web</a>
             </li>
          </ul>
 
@@ -48,7 +48,7 @@ $base_url = base_url();
 
          <div class="work-grid">
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/aperio-beauty/">
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" href="<?= base_url() ?>work/aperio-beauty/">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.webp" alt="">
                   </div>
@@ -61,7 +61,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/box-union/">
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" href="<?= base_url() ?>work/box-union/">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" alt="">
                   </div>
@@ -74,7 +74,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/combo-boxing/">
+               <a href="<?= base_url() ?>work/combo-boxing/" onclick="window.location.href='<?= base_url() ?>work/combo-boxing/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/combo-2.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/combo-2.jpg" alt="">
                   </div>
@@ -87,7 +87,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/hugga-feel/">
+               <a href="<?= base_url() ?>work/hugga-feel/" onclick="window.location.href='<?= base_url() ?>work/hugga-feel/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" alt="">
                   </div>
@@ -100,7 +100,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/rta-brand/">
+               <a href="<?= base_url() ?>work/rta-brand/" onclick="window.location.href='<?= base_url() ?>work/rta-brand/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.webp" alt="">
                   </div>
@@ -113,7 +113,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/gigi-c-bikinis/">
+               <a href="<?= base_url() ?>work/gigi-c-bikinis/" onclick="window.location.href='<?= base_url() ?>work/gigi-c-bikinis/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.webp" alt="">
                   </div>
@@ -126,7 +126,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/the-national-herald/">
+               <a href="<?= base_url() ?>work/the-national-herald/" onclick="window.location.href='<?= base_url() ?>work/the-national-herald/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
                   </div>
@@ -139,7 +139,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/in-the-groove/">
+               <a href="<?= base_url() ?>work/in-the-groove/" onclick="window.location.href='<?= base_url() ?>work/in-the-groove/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.webp" alt="">
                   </div>
@@ -152,7 +152,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/lokai-elements/">
+               <a href="<?= base_url() ?>work/lokai-elements/" onclick="window.location.href='<?= base_url() ?>work/lokai-elements/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.webp" alt="">
                   </div>
@@ -165,7 +165,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/staud/">
+               <a href="<?= base_url() ?>work/staud/" onclick="window.location.href='<?= base_url() ?>work/staud/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" alt="">
                   </div>
@@ -178,7 +178,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/houseplant/">
+               <a href="<?= base_url() ?>work/houseplant/" onclick="window.location.href='<?= base_url() ?>work/houseplant/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.webp" alt="">
                   </div>
@@ -191,7 +191,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/cubed-labs/">
+               <a href="<?= base_url() ?>work/cubed-labs/" onclick="window.location.href='<?= base_url() ?>work/cubed-labs/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" alt="">
                   </div>
@@ -204,7 +204,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="<?= base_url() ?>work/alwrld/">
+               <a href="<?= base_url() ?>work/alwrld/" onclick="window.location.href='<?= base_url() ?>work/alwrld/'">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
                   </div>
@@ -219,7 +219,7 @@ $base_url = base_url();
          </div>
 
          <div data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-            <a href="<?= base_url() ?>work/" class="banner-button">See all work</a>
+            <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" class="banner-button">See all work</a>
             <div class="quick-contact">
                <div class="wipe-bg"></div>
 
@@ -245,7 +245,7 @@ $base_url = base_url();
          <div class="top">
             <h2>The Digital Agency of Revyrie</h2>
             <p>Complete 360° capabilities, with resources spanning technologies & site development, scalability, and marketing - short term or ongoing support.</p>
-            <a class="read-more underline" href="<?= base_url() ?>about/">Read more<span class="visuallyhidden">about us</span></a>
+            <a class="read-more underline" href="#" onclick="window.location.href='<?= base_url() ?>about/'">Read more<span class="visuallyhidden">about us</span></a>
          </div>
          <div class="block" data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">
             <div class="two-up c-60 media-within" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85">
@@ -347,7 +347,7 @@ $base_url = base_url();
             <h3 data-d-entrance="basic-fade" data-offset=".77" data-offset-mobile=".85">But wait, I have more questions</h3>
 
             <div data-d-entrance="basic-fade" data-offset=".85" data-offset-mobile=".8">
-               <a href="<?= base_url() ?>about/" class="banner-button">Read more about Clarity</a>
+               <a href="#" onclick="window.location.href='<?= base_url() ?>about/'" class="banner-button">Read more about Clarity</a>
                <div class="quick-contact">
                   <div class="wipe-bg"></div>
 

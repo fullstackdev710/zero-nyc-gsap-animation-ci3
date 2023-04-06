@@ -10,6 +10,9 @@ $base_url = base_url();
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv='cache-control' content='no-cache'>
+   <meta http-equiv='expires' content='0'>
+   <meta http-equiv='pragma' content='no-cache'>
 
    <title>The Clarity Project :: Revyrie's Digital Agency</title>
    <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>/assets/img/favicon.png">
@@ -19,7 +22,7 @@ $base_url = base_url();
 
    <script>
       const domain_url = `<?php echo base_url(); ?>`;
-      console.log("Domain Url: ", domain_url)
+      console.log("Domain Url: ", domain_url);
    </script>
 
    <!-- BEGIN PAGE LEVEL STYLES -->
@@ -44,14 +47,14 @@ $base_url = base_url();
             <div class="nav-emoji contact">
                <div id="envelope-hitbox" class="hitbox"></div>
                <div id="emoji-nav-links" class="links">
-                  <a href="<?= base_url() ?>contact/">contact</a>
+                  <a href="#" onclick="window.location.href='<?= base_url() ?>contact/'">contact</a>
                   <span>•</span>
-                  <a href="<?= base_url() ?>careers/">careers</a>
+                  <a href="#" onclick="window.location.href='<?= base_url() ?>work/'">Work</a>
                </div>
                <div class="domgl-email"></div>
             </div>
 
-            <a class="logo" href="<?= base_url() ?>" title="Home">
+            <a class="logo" href="#" onclick="window.location.href='<?= base_url() ?>'" title="Home">
                <span class="logo-hitbox"></span>
                <span class="visuallyhidden">Back to the home page</span>
             </a>
@@ -77,28 +80,28 @@ $base_url = base_url();
             </button>
             <div class="inner">
                <div class="content-wrapper">
-                  <a href="<?= base_url() ?>work/" class="main-link">
+                  <a onclick="window.location.href='<?= base_url() ?>work/'" class="main-link">
                      <div class="link-wrapper">
                         <span>Work
                            <span class="custom-font">Work
                            </span></span>
                      </div>
                   </a>
-                  <a href="<?= base_url() ?>about/" class="main-link">
+                  <a onclick="window.location.href='<?= base_url() ?>about/'" class="main-link">
                      <div class="link-wrapper">
                         <span>About
                            <span class="custom-font">About
                            </span></span>
                      </div>
                   </a>
-                  <a href="<?= base_url() ?>contact/" class="main-link">
+                  <a onclick="window.location.href='<?= base_url() ?>contact/'" class="main-link">
                      <div class="link-wrapper">
                         <span>Contact
                            <span class="custom-font">Contact
                            </span></span>
                      </div>
                   </a>
-                  <a href="<?= base_url() ?>careers/" class="main-link">
+                  <a onclick="window.location.href='<?= base_url() ?>careers/'" class="main-link">
                      <div class="link-wrapper">
                         <span>Careers
                            <span class="custom-font">Careers
@@ -126,7 +129,7 @@ $base_url = base_url();
                   <p class="secondary-link switch-text">
                      <span class="first-text">☮ <?= COMPANY_NAME ?> ☮</span>
                   </p>
-                  <a href="<?= base_url() ?>privacypolicy/" class="secondary-link" style="display: none">
+                  <a onclick="window.location.href='<?= base_url() ?>privacypolicy/" class="secondary-link" style="display: none">
                      Privacy Policy
                   </a>
                </div>

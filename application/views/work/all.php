@@ -54,7 +54,7 @@ $base_url = base_url();
          <div class="work-grid c-60" aria-live="polite" style="opacity: 1;">
 
             <article class="work-tile fw featured-project" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/aperio-beauty/" data-out="fade">
+               <a href="<?= base_url() ?>work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
                   <div class="wrapper bottom">
                      <div class="cover-wrapper">
                         <img class="cover bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio.webp" style="opacity: 1;">
@@ -73,7 +73,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/box-union/" data-out="fade">
+               <a href="<?= base_url() ?>work/box-union/" onclick="window.location.href='<?= base_url() ?>work/box-union/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" alt="">
                   </div>
@@ -85,7 +85,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/combo-boxing/" data-out="fade">
+               <a href="<?= base_url() ?>work/combo-boxing/" onclick="window.location.href='<?= base_url() ?>work/combo-boxing/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/combo-2.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/combo-2.jpg" alt="">
                   </div>
@@ -97,7 +97,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/hugga-feel/" data-out="fade">
+               <a href="<?= base_url() ?>work/hugga-feel/" onclick="window.location.href='<?= base_url() ?>work/hugga-feel/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" alt="">
                   </div>
@@ -109,7 +109,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/rta-brand/" data-out="fade">
+               <a href="<?= base_url() ?>work/rta-brand/" onclick="window.location.href='<?= base_url() ?>work/rta-brand/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/rta-denim/RTA-1.webp" alt="">
                   </div>
@@ -121,7 +121,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/gigi-c-bikinis/" data-out="fade">
+               <a href="<?= base_url() ?>work/gigi-c-bikinis/" onclick="window.location.href='<?= base_url() ?>work/gigi-c-bikinis/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/gigi-c-bikinis/Gigi-C-Bikini-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/gigi-c-bikinis/Gigi-C-Bikini-1.webp" alt="">
                   </div>
@@ -133,7 +133,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/jonathan-simkhai/" data-out="fade">
+               <a href="<?= base_url() ?>work/jonathan-simkhai/" onclick="window.location.href='<?= base_url() ?>work/jonathan-simkhai/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/jonathan-simkhai/Jonathan-Simkhai-1.webp" alt="">
                   </div>
@@ -145,7 +145,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/the-national-herald/" data-out="fade">
+               <a href="<?= base_url() ?>work/the-national-herald/" onclick="window.location.href='<?= base_url() ?>work/the-national-herald/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
                   </div>
@@ -157,7 +157,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/in-the-groove/" data-out="fade">
+               <a href="<?= base_url() ?>work/in-the-groove/" onclick="window.location.href='<?= base_url() ?>work/in-the-groove/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/in-the-groove/In-the-Goove-4.webp" alt="">
                   </div>
@@ -169,7 +169,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/lokai-elements/" data-out="fade">
+               <a href="<?= base_url() ?>work/lokai-elements/" onclick="window.location.href='<?= base_url() ?>work/lokai-elements/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Lokai.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Lokai.webp" alt="">
                   </div>
@@ -181,7 +181,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/staud/" data-out="fade">
+               <a href="<?= base_url() ?>work/staud/" onclick="window.location.href='<?= base_url() ?>work/staud/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/stuad/Staud-1.webp" alt="">
                   </div>
@@ -193,7 +193,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/houseplant/" data-out="fade">
+               <a href="<?= base_url() ?>work/houseplant/" onclick="window.location.href='<?= base_url() ?>work/houseplant/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Housplant.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Housplant.webp" alt="">
                   </div>
@@ -205,7 +205,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-right" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/cubed-labs/" data-out="fade">
+               <a href="<?= base_url() ?>work/cubed-labs/" onclick="window.location.href='<?= base_url() ?>work/cubed-labs/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Cubed-Labs.webp" alt="">
                   </div>
@@ -217,7 +217,7 @@ $base_url = base_url();
 
 
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
-               <a href="<?= base_url() ?>work/alwrld/" data-out="fade">
+               <a href="<?= base_url() ?>work/alwrld/" onclick="window.location.href='<?= base_url() ?>work/alwrld/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
                   </div>

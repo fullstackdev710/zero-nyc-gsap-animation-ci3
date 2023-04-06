@@ -521,7 +521,7 @@
 						}
 					}),
 					(e.prototype.popState = function () {
-						(this.trigger = "popstate"), (this.Contextual = !1);
+						(this.trigger = "popstate1"), (this.Contextual = !1);
 						var t = this.Helpers.getLocation(window.location.href);
 						this.location.pathname !== t.pathname ||
 						(!this.location.anchor && !t.anchor)

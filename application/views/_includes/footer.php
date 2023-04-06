@@ -176,71 +176,6 @@ $base_url = base_url();
    <img alt="Fire" class="preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format" data-preload-mobile="<?php echo base_url(); ?>/assets/img/demo/f4d1657f-b7b0-4416-b181-76e92cea14a6_Flame.gif?auto=compress,format">
 </div>
 
-<script>
-   const bballMatcap = {
-      "dimensions": {
-         "width": 512,
-         "height": 512
-      },
-      "alt": null,
-      "copyright": null,
-      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
-   };
-   const hoopMatcap = {
-      "dimensions": {
-         "width": 512,
-         "height": 512
-      },
-      "alt": null,
-      "copyright": null,
-      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
-   };
-   const backboardMatcap = {
-      "dimensions": {
-         "width": 512,
-         "height": 512
-      },
-      "alt": null,
-      "copyright": null,
-      "url": "<?php echo base_url(); ?>/assets/img/demo/919ef095-7962-4562-8b81-21b0a16f2c48_28292A_D3DAE5_A3ACB8_818183-512px.png?auto=compress,format"
-   };
-</script>
-
-<script type="x-shader/x-vertex" id="sem-vs">
-   varying vec2 vN;
-
-  void main() {
-
-  vec4 p = vec4( position, 1. );
-
-  vec3 e = normalize( vec3( modelViewMatrix * p ) );
-  vec3 n = normalize( normalMatrix * normal );
-
-  vec3 r = reflect( e, n );
-  float m = 2. * sqrt(
-  pow( r.x, 2. ) +
-  pow( r.y, 2. ) +
-  pow( r.z + 1., 2. )
-  );
-  vN = r.xy / m + .5;
-
-  gl_Position = projectionMatrix * modelViewMatrix * p;
-
-  }
-</script>
-
-<script type="x-shader/x-vertex" id="sem-fs">
-   uniform sampler2D tMatCap;
-
-  varying vec2 vN;
-
-  void main() {
-
-  vec3 base = texture2D( tMatCap, vN ).rgb;
-  gl_FragColor = vec4( base, 1. );
-
-  }
-</script>
 <div id="site-data" data-cid="" data-gtag="UA-90780876-1" data-fb-app="" data-fb-pixel="" data-asset-path="/assets/code/"></div>
 <!-- Google Analytics -->
 <script>
@@ -259,7 +194,7 @@ $base_url = base_url();
    ga("send", "pageview");
 </script>
 
-<script type="text/javascript" src="<?php echo base_url(); ?>/assets/js/main.js?ver=<?php echo time(); ?>" defer></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/assets/js/main.js?ver=<?php echo time(); ?>"></script>
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <?php if (isset($scripts)) {
