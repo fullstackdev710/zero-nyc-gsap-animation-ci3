@@ -22,7 +22,6 @@ $base_url = base_url();
 
    <script>
       const domain_url = `<?php echo base_url(); ?>`;
-      console.log("Domain Url: ", domain_url);
    </script>
 
    <!-- BEGIN PAGE LEVEL STYLES -->

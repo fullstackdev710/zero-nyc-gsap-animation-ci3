@@ -3,7 +3,7 @@
    <div class="view-work-type" data-router-view="work-type" data-transition-in="default">
       <section>
          <div class="hero" data-out="fade">
-            <img class="bg miq" alt="" src="<?php echo base_url(); ?>/assets/img/aperio.webp" style="opacity: 1;">
+            <img class="bg miq" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-1.webp" style="opacity: 1;">
          </div>
 
          <div class="work-intro c-120" data-out="fade" data-entrance="basic-fade" data-offset=".65" data-offset-mobile=".85" style="opacity: 1;">
