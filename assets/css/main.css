@@ -1740,8 +1740,8 @@ video.manual {
 }
 @media screen and (max-width: 767px) {
 	.featured-work .work-tile.bottom .copy {
-		position: relative;
-		bottom: auto;
+		/* position: relative;
+		bottom: auto; */
 	}
 }
 .featured-work .copy {
@@ -5006,8 +5006,10 @@ html[style*="--primary:#000000;"] .letter img {
 	background-size: cover;
 }
 article.work-tile div.copy.color-override {
-	background-color: #ffcc00;
-	opacity: 0.75 !important;
+	/* background-color: #ffcc00; */
+	background-color: var(--secondary);
+	opacity: 0.85 !important;
+	border: solid #ffcc00;
 	padding: 20px;
 }
 /* Home Page Style End */
