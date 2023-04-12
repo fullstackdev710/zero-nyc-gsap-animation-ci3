@@ -57,16 +57,13 @@ $base_url = base_url();
                <a href="<?= base_url() ?>work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
                   <div class="wrapper bottom">
                      <div class="cover-wrapper">
-                        <img class="cover bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio.webp" style="opacity: 1;">
-                        <img class="hidden cover bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio.webp" style="opacity: 1;">
+                        <img class="cover bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1;">
+                        <img class="hidden cover bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1;">
                      </div>
-                     <div class="copy cml-60 color-override" style="--primary-override: #000000;">
+                     <div class="context s-el" style="opacity: 0; transform: translate(0px, 20px);">
                         <h3>Aperio Beauty</h3>
                         <p>Custom Build Shopify Solution</p>
                      </div>
-                  </div>
-                  <div class="context s-el">
-                     <p class="full-width">Custom Build Shopify Solution</p>
                   </div>
                </a>
             </article>
@@ -219,7 +216,7 @@ $base_url = base_url();
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
                <a href="<?= base_url() ?>work/alwrld/" onclick="window.location.href='<?= base_url() ?>work/alwrld/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
-                     <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
+                     <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/alwrld/Alwrld-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/alwrld/Alwrld-1.webp" alt="">
                   </div>
                   <div class="context s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <h3 class="full-width">ALWRLD</h3>

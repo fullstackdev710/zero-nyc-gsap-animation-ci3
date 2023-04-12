@@ -32,7 +32,7 @@ $base_url = base_url();
             </li>
          </ul>
 
-         <article class="work-tile fw">
+         <article class="work-tile fw d-none">
             <div>
                <div class="cover-wrapper">
                   <div class="cover bg"><video class="d-auto preload" preload muted loop playsinline data-preload-desktop="<?php echo base_url(); ?>assets/video/intro-video.mp4" data-preload-mobile="<?php echo base_url(); ?>assets/video/intro-video.mp4"></video></div>
@@ -46,11 +46,26 @@ $base_url = base_url();
             </div>
          </article>
 
+         <article class="work-tile fw featured-project" data-filters="consumer e-commerce web">
+            <a href="<?= base_url() ?>work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
+               <div class="wrapper bottom">
+                  <div class="cover-wrapper">
+                     <img class="preload bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1; padding-bottom: 0px;">
+                     <img class="hidden bg preload miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1; padding-bottom: 0px;">
+                  </div>
+                  <div class="context s-el" style="opacity: 0; transform: translate(0px, 20px);">
+                     <h3>Aperio Beauty</h3>
+                     <p>Custom Build Shopify Solution</p>
+                  </div>
+               </div>
+            </a>
+         </article>
+
          <div class="work-grid">
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" href="<?= base_url() ?>work/aperio-beauty/">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio.webp" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" alt="">
                   </div>
 
                   <div class="context s-el">
@@ -206,7 +221,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/alwrld/" onclick="window.location.href='<?= base_url() ?>work/alwrld/'">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/Alwrld.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/Alwrld.webp" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/alwrld/Alwrld-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/alwrld/Alwrld-1.webp" alt="">
                   </div>
 
                   <div class="context s-el">
