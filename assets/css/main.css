@@ -157,7 +157,7 @@ svg {
 .bg,
 video {
 	position: absolute;
-	object-fit: cover;
+	object-fit: unset;
 	object-position: center;
 	width: 100%;
 }
