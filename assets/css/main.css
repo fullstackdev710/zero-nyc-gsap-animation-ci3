@@ -161,6 +161,9 @@ video {
 	object-position: center;
 	width: 100%;
 }
+img.bg {
+	height: 100vh;
+}
 video {
 	height: 100%;
 }
@@ -2715,6 +2718,7 @@ video.manual {
 	width: 100%;
 	position: relative;
 	padding-bottom: var(--dar);
+	padding-bottom: 100vh;
 }
 @media screen and (max-width: 767px) {
 	.full-bleed {

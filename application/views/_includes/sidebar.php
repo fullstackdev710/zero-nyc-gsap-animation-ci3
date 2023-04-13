@@ -47,7 +47,7 @@ $base_url = base_url();
          </article>
 
          <article class="work-tile fw featured-project" data-filters="consumer e-commerce web">
-            <a href="<?= base_url() ?>work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
+            <a href="<?= base_url() ?>work/aperio-beauty/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
                <div class="wrapper bottom">
                   <div class="cover-wrapper">
                      <img class="preload bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1; padding-bottom: 0px;">
@@ -63,7 +63,7 @@ $base_url = base_url();
 
          <div class="work-grid">
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" href="<?= base_url() ?>work/aperio-beauty/">
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" href="<?= base_url() ?>work/aperio-beauty/">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" alt="">
                   </div>
@@ -76,7 +76,7 @@ $base_url = base_url();
             </article>
 
             <article class="work-tile is-left" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
-               <a href="#" onclick="window.location.href='<?= base_url() ?>work/'" href="<?= base_url() ?>work/box-union/">
+               <a href="#" onclick="window.location.href='<?= base_url() ?>work/box-union/'" href="<?= base_url() ?>work/box-union/">
                   <div class="cover-wrapper s-el">
                      <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" alt="">
                   </div>
