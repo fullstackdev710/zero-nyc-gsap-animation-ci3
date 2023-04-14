@@ -144,7 +144,7 @@ $base_url = base_url();
             <article class="work-tile media-within is-left" data-entrance="stagger-fade" data-offset=".86" data-offset-mobile=".85" data-filters="consumer e-commerce web">
                <a href="<?= base_url() ?>work/the-national-herald/" onclick="window.location.href='<?= base_url() ?>work/the-national-herald/'" data-out="fade">
                   <div class="cover-wrapper s-el" style="opacity: 0; transform: translate(0px, 20px);">
-                     <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
+                     <img class="cover bg preload bound" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" alt="">
                   </div>
                   <div class="context s-el" style="opacity: 0; transform: translate(0px, 20px);">
                      <h3 class="full-width">The National Herald</h3>

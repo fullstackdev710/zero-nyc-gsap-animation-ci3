@@ -47,7 +47,7 @@ $base_url = base_url();
          </article>
 
          <article class="work-tile fw featured-project" data-filters="consumer e-commerce web">
-            <a href="<?= base_url() ?>work/aperio-beauty/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
+            <a href="<?= base_url() ?>work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-out="fade">
                <div class="wrapper bottom">
                   <div class="cover-wrapper">
                      <img class="preload bg miq bound" alt="" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" style="opacity: 1; padding-bottom: 0px;">
@@ -143,7 +143,7 @@ $base_url = base_url();
             <article class="work-tile is-right" data-d-entrance="stagger-fade" data-offset=".8" data-offset-mobile=".85">
                <a href="<?= base_url() ?>work/the-national-herald/" onclick="window.location.href='<?= base_url() ?>work/the-national-herald/'">
                   <div class="cover-wrapper s-el">
-                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
+                     <img class="cover bg preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" alt="">
                   </div>
 
                   <div class="context s-el">

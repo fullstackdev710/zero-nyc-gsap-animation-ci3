@@ -20,44 +20,52 @@ $base_url = base_url();
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/aperio-beauty/" onclick="window.location.href='<?= base_url() ?>work/aperio-beauty/'" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<!-- <div class="image-wrapper"> -->
 						<img class="bg miq preload" src="<?php echo base_url(); ?>/assets/img/aperio/Aperio-4.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Aperio Beauty</h1>
 							<p>Custom Build Shopify Solution</p>
 						</div>
+						<!-- </div> -->
 					</a>
 				</article>
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/box-union/" onclick="window.location.href='<?= base_url() ?>work/box-union/'" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" alt="">
+						<div class="image-wrapper">
+							<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/box-union/Box-Union-4.webp" alt="">
 
-						<div class="copy cml-60 color-override">
-							<h1>Box Union</h1>
-							<p>Custom Build Shopify Solution</p>
+							<div class="copy cml-60 color-override">
+								<h1>Box Union</h1>
+								<p>Custom Build Shopify Solution</p>
+							</div>
 						</div>
 					</a>
 				</article>
 
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>/work/combo-boxing/" onclick="window.location.href='<?= base_url() ?>work/combo-boxing/'" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<!-- <div class="image-wrapper"> -->
 						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/combo-2.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/combo-2.jpg" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Combo Boxing</h1>
 							<p>Custom Build Shopify Solution</p>
 						</div>
+						<!-- </div> -->
 					</a>
 				</article>
 				<article class="work-tile fw media-within center" data-out="fade">
 					<a href="<?= base_url() ?>/work/hugga-feel/" onclick="window.location.href='<?= base_url() ?>work/hugga-feel/'" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
+						<!-- <div class="image-wrapper"> -->
 						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/hugga/Hugga-1.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>Hugga</h1>
 							<p>Custom Build Shopify Solution</p>
 						</div>
+						<!-- </div> -->
 					</a>
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
@@ -92,7 +100,7 @@ $base_url = base_url();
 				</article>
 				<article class="work-tile fw media-within bottom" data-out="fade">
 					<a href="<?= base_url() ?>work/the-national-herald/" onclick="window.location.href='<?= base_url() ?>work/the-national-herald/'" data-entrance="cover-copy" data-offset=".85" data-offset-mobile=".85">
-						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.jpg" alt="">
+						<img class="bg miq preload" data-preload-desktop="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" data-preload-mobile="<?php echo base_url(); ?>/assets/img/thenationalherald_clarity_revyrie.webp" alt="">
 
 						<div class="copy cml-60 color-override">
 							<h1>The National Herald</h1>
