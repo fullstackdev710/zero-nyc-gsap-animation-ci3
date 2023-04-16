@@ -1746,8 +1746,12 @@ video.manual {
 }
 @media screen and (max-width: 767px) {
 	.featured-work .work-tile.bottom .copy {
-		/* position: relative;
-		bottom: auto; */
+		position: relative;
+		bottom: auto;
+		/* bottom: 40px; */
+	}
+	.bg {
+		object-fit: cover;
 	}
 }
 .featured-work .copy {
@@ -1784,6 +1788,9 @@ video.manual {
 	.featured-work video {
 		position: relative;
 		height: 146.667vw;
+	}
+	article.work-tile div.copy.color-override {
+		border: none !important;
 	}
 	.featured-work h1 {
 		font-size: 12px;
